@@ -1,4 +1,4 @@
-\ Model datos14
+\ Model datos14 - copia
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
   0.075 corriente_sqr[14.0,13.0] + 0.11 corriente_sqr[14.0,9.0]
@@ -69,70 +69,70 @@ Subject To
  R43: estado_disyuntor[7.0,3.0] + estado_disyuntor[4.0,3.0] = 1
  R44: estado_disyuntor[4.0,2.0] + estado_disyuntor[1.0,2.0] = 1
  R45: estado_disyuntor[10.0,1.0] + estado_disyuntor[2.0,1.0] = 1
- R46: - 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] >= -0.2
- R47: 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] <= 0.2
- R48: - 0.2 estado_disyuntor[14.0,9.0] - delta[14.0,9.0] >= -0.2
- R49: 0.2 estado_disyuntor[14.0,9.0] - delta[14.0,9.0] <= 0.2
- R50: - 0.2 estado_disyuntor[14.0,4.0] - delta[14.0,4.0] >= -0.2
- R51: 0.2 estado_disyuntor[14.0,4.0] - delta[14.0,4.0] <= 0.2
- R52: - 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] >= -0.2
- R53: 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] <= 0.2
- R54: - 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] >= -0.2
- R55: 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] <= 0.2
- R56: - 0.2 estado_disyuntor[13.0,11.0] - delta[13.0,11.0] >= -0.2
- R57: 0.2 estado_disyuntor[13.0,11.0] - delta[13.0,11.0] <= 0.2
- R58: - 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] >= -0.2
- R59: 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] <= 0.2
- R60: - 0.2 estado_disyuntor[12.0,6.0] - delta[12.0,6.0] >= -0.2
- R61: 0.2 estado_disyuntor[12.0,6.0] - delta[12.0,6.0] <= 0.2
- R62: - 0.2 estado_disyuntor[11.0,13.0] - delta[11.0,13.0] >= -0.2
- R63: 0.2 estado_disyuntor[11.0,13.0] - delta[11.0,13.0] <= 0.2
- R64: - 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] >= -0.2
- R65: 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] <= 0.2
- R66: - 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] >= -0.2
- R67: 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] <= 0.2
- R68: - 0.2 estado_disyuntor[10.0,1.0] - delta[10.0,1.0] >= -0.2
- R69: 0.2 estado_disyuntor[10.0,1.0] - delta[10.0,1.0] <= 0.2
- R70: - 0.2 estado_disyuntor[9.0,14.0] - delta[9.0,14.0] >= -0.2
- R71: 0.2 estado_disyuntor[9.0,14.0] - delta[9.0,14.0] <= 0.2
- R72: - 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] >= -0.2
- R73: 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] <= 0.2
- R74: - 0.2 estado_disyuntor[9.0,7.0] - delta[9.0,7.0] >= -0.2
- R75: 0.2 estado_disyuntor[9.0,7.0] - delta[9.0,7.0] <= 0.2
- R76: - 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] >= -0.2
- R77: 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] <= 0.2
- R78: - 0.2 estado_disyuntor[8.0,6.0] - delta[8.0,6.0] >= -0.2
- R79: 0.2 estado_disyuntor[8.0,6.0] - delta[8.0,6.0] <= 0.2
- R80: - 0.2 estado_disyuntor[8.0,5.0] - delta[8.0,5.0] >= -0.2
- R81: 0.2 estado_disyuntor[8.0,5.0] - delta[8.0,5.0] <= 0.2
- R82: - 0.2 estado_disyuntor[7.0,9.0] - delta[7.0,9.0] >= -0.2
- R83: 0.2 estado_disyuntor[7.0,9.0] - delta[7.0,9.0] <= 0.2
- R84: - 0.2 estado_disyuntor[7.0,3.0] - delta[7.0,3.0] >= -0.2
- R85: 0.2 estado_disyuntor[7.0,3.0] - delta[7.0,3.0] <= 0.2
- R86: - 0.2 estado_disyuntor[6.0,8.0] - delta[6.0,8.0] >= -0.2
- R87: 0.2 estado_disyuntor[6.0,8.0] - delta[6.0,8.0] <= 0.2
- R88: - 0.2 estado_disyuntor[6.0,12.0] - delta[6.0,12.0] >= -0.2
- R89: 0.2 estado_disyuntor[6.0,12.0] - delta[6.0,12.0] <= 0.2
- R90: - 0.2 estado_disyuntor[5.0,8.0] - delta[5.0,8.0] >= -0.2
- R91: 0.2 estado_disyuntor[5.0,8.0] - delta[5.0,8.0] <= 0.2
- R92: - 0.2 estado_disyuntor[4.0,14.0] - delta[4.0,14.0] >= -0.2
- R93: 0.2 estado_disyuntor[4.0,14.0] - delta[4.0,14.0] <= 0.2
- R94: - 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] >= -0.2
- R95: 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] <= 0.2
- R96: - 0.2 estado_disyuntor[4.0,2.0] - delta[4.0,2.0] >= -0.2
- R97: 0.2 estado_disyuntor[4.0,2.0] - delta[4.0,2.0] <= 0.2
- R98: - 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] >= -0.2
- R99: 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] <= 0.2
- R100: - 0.2 estado_disyuntor[3.0,7.0] - delta[3.0,7.0] >= -0.2
- R101: 0.2 estado_disyuntor[3.0,7.0] - delta[3.0,7.0] <= 0.2
- R102: - 0.2 estado_disyuntor[2.0,4.0] - delta[2.0,4.0] >= -0.2
- R103: 0.2 estado_disyuntor[2.0,4.0] - delta[2.0,4.0] <= 0.2
- R104: - 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] >= -0.2
- R105: 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] <= 0.2
- R106: - 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] >= -0.2
- R107: 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] <= 0.2
- R108: - 0.2 estado_disyuntor[1.0,10.0] - delta[1.0,10.0] >= -0.2
- R109: 0.2 estado_disyuntor[1.0,10.0] - delta[1.0,10.0] <= 0.2
+ R46: - 0.6 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] >= -0.6
+ R47: 0.6 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] <= 0.6
+ R48: - 0.6 estado_disyuntor[14.0,9.0] - delta[14.0,9.0] >= -0.6
+ R49: 0.6 estado_disyuntor[14.0,9.0] - delta[14.0,9.0] <= 0.6
+ R50: - 0.6 estado_disyuntor[14.0,4.0] - delta[14.0,4.0] >= -0.6
+ R51: 0.6 estado_disyuntor[14.0,4.0] - delta[14.0,4.0] <= 0.6
+ R52: - 0.6 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] >= -0.6
+ R53: 0.6 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] <= 0.6
+ R54: - 0.6 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] >= -0.6
+ R55: 0.6 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] <= 0.6
+ R56: - 0.6 estado_disyuntor[13.0,11.0] - delta[13.0,11.0] >= -0.6
+ R57: 0.6 estado_disyuntor[13.0,11.0] - delta[13.0,11.0] <= 0.6
+ R58: - 0.6 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] >= -0.6
+ R59: 0.6 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] <= 0.6
+ R60: - 0.6 estado_disyuntor[12.0,6.0] - delta[12.0,6.0] >= -0.6
+ R61: 0.6 estado_disyuntor[12.0,6.0] - delta[12.0,6.0] <= 0.6
+ R62: - 0.6 estado_disyuntor[11.0,13.0] - delta[11.0,13.0] >= -0.6
+ R63: 0.6 estado_disyuntor[11.0,13.0] - delta[11.0,13.0] <= 0.6
+ R64: - 0.6 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] >= -0.6
+ R65: 0.6 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] <= 0.6
+ R66: - 0.6 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] >= -0.6
+ R67: 0.6 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] <= 0.6
+ R68: - 0.6 estado_disyuntor[10.0,1.0] - delta[10.0,1.0] >= -0.6
+ R69: 0.6 estado_disyuntor[10.0,1.0] - delta[10.0,1.0] <= 0.6
+ R70: - 0.6 estado_disyuntor[9.0,14.0] - delta[9.0,14.0] >= -0.6
+ R71: 0.6 estado_disyuntor[9.0,14.0] - delta[9.0,14.0] <= 0.6
+ R72: - 0.6 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] >= -0.6
+ R73: 0.6 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] <= 0.6
+ R74: - 0.6 estado_disyuntor[9.0,7.0] - delta[9.0,7.0] >= -0.6
+ R75: 0.6 estado_disyuntor[9.0,7.0] - delta[9.0,7.0] <= 0.6
+ R76: - 0.6 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] >= -0.6
+ R77: 0.6 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] <= 0.6
+ R78: - 0.6 estado_disyuntor[8.0,6.0] - delta[8.0,6.0] >= -0.6
+ R79: 0.6 estado_disyuntor[8.0,6.0] - delta[8.0,6.0] <= 0.6
+ R80: - 0.6 estado_disyuntor[8.0,5.0] - delta[8.0,5.0] >= -0.6
+ R81: 0.6 estado_disyuntor[8.0,5.0] - delta[8.0,5.0] <= 0.6
+ R82: - 0.6 estado_disyuntor[7.0,9.0] - delta[7.0,9.0] >= -0.6
+ R83: 0.6 estado_disyuntor[7.0,9.0] - delta[7.0,9.0] <= 0.6
+ R84: - 0.6 estado_disyuntor[7.0,3.0] - delta[7.0,3.0] >= -0.6
+ R85: 0.6 estado_disyuntor[7.0,3.0] - delta[7.0,3.0] <= 0.6
+ R86: - 0.6 estado_disyuntor[6.0,8.0] - delta[6.0,8.0] >= -0.6
+ R87: 0.6 estado_disyuntor[6.0,8.0] - delta[6.0,8.0] <= 0.6
+ R88: - 0.6 estado_disyuntor[6.0,12.0] - delta[6.0,12.0] >= -0.6
+ R89: 0.6 estado_disyuntor[6.0,12.0] - delta[6.0,12.0] <= 0.6
+ R90: - 0.6 estado_disyuntor[5.0,8.0] - delta[5.0,8.0] >= -0.6
+ R91: 0.6 estado_disyuntor[5.0,8.0] - delta[5.0,8.0] <= 0.6
+ R92: - 0.6 estado_disyuntor[4.0,14.0] - delta[4.0,14.0] >= -0.6
+ R93: 0.6 estado_disyuntor[4.0,14.0] - delta[4.0,14.0] <= 0.6
+ R94: - 0.6 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] >= -0.6
+ R95: 0.6 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] <= 0.6
+ R96: - 0.6 estado_disyuntor[4.0,2.0] - delta[4.0,2.0] >= -0.6
+ R97: 0.6 estado_disyuntor[4.0,2.0] - delta[4.0,2.0] <= 0.6
+ R98: - 0.6 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] >= -0.6
+ R99: 0.6 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] <= 0.6
+ R100: - 0.6 estado_disyuntor[3.0,7.0] - delta[3.0,7.0] >= -0.6
+ R101: 0.6 estado_disyuntor[3.0,7.0] - delta[3.0,7.0] <= 0.6
+ R102: - 0.6 estado_disyuntor[2.0,4.0] - delta[2.0,4.0] >= -0.6
+ R103: 0.6 estado_disyuntor[2.0,4.0] - delta[2.0,4.0] <= 0.6
+ R104: - 0.6 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] >= -0.6
+ R105: 0.6 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] <= 0.6
+ R106: - 0.6 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] >= -0.6
+ R107: 0.6 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] <= 0.6
+ R108: - 0.6 estado_disyuntor[1.0,10.0] - delta[1.0,10.0] >= -0.6
+ R109: 0.6 estado_disyuntor[1.0,10.0] - delta[1.0,10.0] <= 0.6
  R110: - 0.15 potencia_activa[14.0,13.0] - 0.2 potencia_reactiva[14.0,13.0]
    + voltaje_sqr[14.0] - voltaje_sqr[13.0]
    + 0.015625 corriente_sqr[14.0,13.0] - delta[14.0,13.0] = 0
@@ -239,7 +239,7 @@ Subject To
    - potencia_reactiva[14.0,4.0] + potencia_reactiva[13.0,14.0]
    + potencia_reactiva[9.0,14.0] + potencia_reactiva[4.0,14.0]
    - 0.1 corriente_sqr[14.0,13.0] - 0.11 corriente_sqr[14.0,9.0]
-   - 0.11 corriente_sqr[14.0,4.0] <= -0.173
+   - 0.11 corriente_sqr[14.0,4.0] <= -0.059
  R143: potencia_reactiva[14.0,13.0] - potencia_reactiva[13.0,14.0]
    - potencia_reactiva[13.0,12.0] - potencia_reactiva[13.0,11.0]
    + potencia_reactiva[12.0,13.0] + potencia_reactiva[11.0,13.0]
@@ -247,10 +247,11 @@ Subject To
    - 0.18 corriente_sqr[13.0,11.0] = 0.016
  R144: potencia_reactiva[13.0,12.0] - potencia_reactiva[12.0,13.0]
    - potencia_reactiva[12.0,6.0] + potencia_reactiva[6.0,12.0]
-   - 0.11 corriente_sqr[12.0,13.0] - 0.04 corriente_sqr[12.0,6.0] = 0.015
+   - 0.11 corriente_sqr[12.0,13.0] - 0.04 corriente_sqr[12.0,6.0] = 0.004
  R145: potencia_reactiva[13.0,11.0] - potencia_reactiva[11.0,13.0]
    - potencia_reactiva[11.0,10.0] + potencia_reactiva[10.0,11.0]
-   - 0.18 corriente_sqr[11.0,13.0] - 0.04 corriente_sqr[11.0,10.0] = 0.008
+   - 0.18 corriente_sqr[11.0,13.0] - 0.04 corriente_sqr[11.0,10.0]
+   = -0.004
  R146: potencia_reactiva[11.0,10.0] - potencia_reactiva[10.0,11.0]
    - potencia_reactiva[10.0,1.0] + potencia_reactiva[1.0,10.0]
    - 0.04 corriente_sqr[10.0,11.0] - 0.12 corriente_sqr[10.0,1.0] = 0.012
@@ -263,15 +264,15 @@ Subject To
    - potencia_reactiva[8.0,6.0] - potencia_reactiva[8.0,5.0]
    + potencia_reactiva[6.0,8.0] + potencia_reactiva[5.0,8.0]
    - 0.11 corriente_sqr[8.0,9.0] - 0.11 corriente_sqr[8.0,6.0]
-   - 0.11 corriente_sqr[8.0,5.0] = 0.03
+   - 0.11 corriente_sqr[8.0,5.0] = 0.018
  R149: potencia_reactiva[9.0,7.0] - potencia_reactiva[7.0,9.0]
    - potencia_reactiva[7.0,3.0] + potencia_reactiva[3.0,7.0]
    - 0.11 corriente_sqr[7.0,9.0] - 0.04 corriente_sqr[7.0,3.0] = 0.009
  R150: potencia_reactiva[12.0,6.0] + potencia_reactiva[8.0,6.0]
    - potencia_reactiva[6.0,8.0] - potencia_reactiva[6.0,12.0]
-   - 0.11 corriente_sqr[6.0,8.0] - 0.04 corriente_sqr[6.0,12.0] = 0.001
+   - 0.11 corriente_sqr[6.0,8.0] - 0.04 corriente_sqr[6.0,12.0] = -0.005
  R151: potencia_reactiva[8.0,5.0] - potencia_reactiva[5.0,8.0]
-   - 0.11 corriente_sqr[5.0,8.0] = 0.02
+   - 0.11 corriente_sqr[5.0,8.0] = -0.017
  R152: potencia_reactiva[14.0,4.0] - potencia_reactiva[4.0,14.0]
    - potencia_reactiva[4.0,3.0] - potencia_reactiva[4.0,2.0]
    + potencia_reactiva[3.0,4.0] + potencia_reactiva[2.0,4.0]
@@ -279,13 +280,13 @@ Subject To
    - 0.11 corriente_sqr[4.0,2.0] = 0.009
  R153: potencia_reactiva[7.0,3.0] + potencia_reactiva[4.0,3.0]
    - potencia_reactiva[3.0,4.0] - potencia_reactiva[3.0,7.0]
-   - 0.12 corriente_sqr[3.0,4.0] - 0.04 corriente_sqr[3.0,7.0] = 0.007
+   - 0.12 corriente_sqr[3.0,4.0] - 0.04 corriente_sqr[3.0,7.0] = -0.011
  R154: potencia_reactiva[4.0,2.0] - potencia_reactiva[2.0,4.0]
    - potencia_reactiva[2.0,1.0] + potencia_reactiva[1.0,2.0]
    - 0.11 corriente_sqr[2.0,4.0] - 0.04 corriente_sqr[2.0,1.0] = 0.009
  R155: potencia_reactiva[10.0,1.0] + potencia_reactiva[2.0,1.0]
    - potencia_reactiva[1.0,2.0] - potencia_reactiva[1.0,10.0]
-   - 0.04 corriente_sqr[1.0,2.0] - 0.12 corriente_sqr[1.0,10.0] = 0.01
+   - 0.04 corriente_sqr[1.0,2.0] - 0.12 corriente_sqr[1.0,10.0] = -0.008
  R156: - potencia_activa[14.0,13.0] - potencia_activa[14.0,9.0]
    - potencia_activa[14.0,4.0] + potencia_activa[13.0,14.0]
    + potencia_activa[9.0,14.0] + potencia_activa[4.0,14.0]
@@ -337,134 +338,69 @@ Subject To
  R169: potencia_activa[10.0,1.0] + potencia_activa[2.0,1.0]
    - potencia_activa[1.0,2.0] - potencia_activa[1.0,10.0]
    - 0.04 corriente_sqr[1.0,2.0] - 0.09 corriente_sqr[1.0,10.0] = 0.021
- R170: voltaje_sqr[14.0] = 1
- qc0: corriente_sqr[14.0,13.0] + [ - potencia_activa[14.0,13.0] ^2
-   - potencia_reactiva[14.0,13.0] ^2 ] >= 0
- qc1: [ - potencia_activa[14.0,13.0] ^2 - potencia_reactiva[14.0,13.0] ^2
+ qc0: [ - potencia_activa[14.0,13.0] ^2 - potencia_reactiva[14.0,13.0] ^2
    + voltaje_sqr[13.0] * corriente_sqr[14.0,13.0] ] >= 0
- qc2: corriente_sqr[14.0,9.0] + [ - potencia_activa[14.0,9.0] ^2
-   - potencia_reactiva[14.0,9.0] ^2 ] >= 0
- qc3: [ - potencia_activa[14.0,9.0] ^2 - potencia_reactiva[14.0,9.0] ^2
+ qc1: [ - potencia_activa[14.0,9.0] ^2 - potencia_reactiva[14.0,9.0] ^2
    + voltaje_sqr[9.0] * corriente_sqr[14.0,9.0] ] >= 0
- qc4: corriente_sqr[14.0,4.0] + [ - potencia_activa[14.0,4.0] ^2
-   - potencia_reactiva[14.0,4.0] ^2 ] >= 0
- qc5: [ - potencia_activa[14.0,4.0] ^2 - potencia_reactiva[14.0,4.0] ^2
+ qc2: [ - potencia_activa[14.0,4.0] ^2 - potencia_reactiva[14.0,4.0] ^2
    + voltaje_sqr[4.0] * corriente_sqr[14.0,4.0] ] >= 0
- qc6: corriente_sqr[13.0,14.0] + [ - potencia_activa[13.0,14.0] ^2
-   - potencia_reactiva[13.0,14.0] ^2 ] >= 0
- qc7: [ - potencia_activa[13.0,14.0] ^2 - potencia_reactiva[13.0,14.0] ^2
+ qc3: [ - potencia_activa[13.0,14.0] ^2 - potencia_reactiva[13.0,14.0] ^2
    + voltaje_sqr[14.0] * corriente_sqr[13.0,14.0] ] >= 0
- qc8: corriente_sqr[13.0,12.0] + [ - potencia_activa[13.0,12.0] ^2
-   - potencia_reactiva[13.0,12.0] ^2 ] >= 0
- qc9: [ - potencia_activa[13.0,12.0] ^2 - potencia_reactiva[13.0,12.0] ^2
+ qc4: [ - potencia_activa[13.0,12.0] ^2 - potencia_reactiva[13.0,12.0] ^2
    + voltaje_sqr[12.0] * corriente_sqr[13.0,12.0] ] >= 0
- qc10: corriente_sqr[13.0,11.0] + [ - potencia_activa[13.0,11.0] ^2
-   - potencia_reactiva[13.0,11.0] ^2 ] >= 0
- qc11: [ - potencia_activa[13.0,11.0] ^2 - potencia_reactiva[13.0,11.0] ^2
+ qc5: [ - potencia_activa[13.0,11.0] ^2 - potencia_reactiva[13.0,11.0] ^2
    + voltaje_sqr[11.0] * corriente_sqr[13.0,11.0] ] >= 0
- qc12: corriente_sqr[12.0,13.0] + [ - potencia_activa[12.0,13.0] ^2
-   - potencia_reactiva[12.0,13.0] ^2 ] >= 0
- qc13: [ - potencia_activa[12.0,13.0] ^2 - potencia_reactiva[12.0,13.0] ^2
+ qc6: [ - potencia_activa[12.0,13.0] ^2 - potencia_reactiva[12.0,13.0] ^2
    + voltaje_sqr[13.0] * corriente_sqr[12.0,13.0] ] >= 0
- qc14: corriente_sqr[12.0,6.0] + [ - potencia_activa[12.0,6.0] ^2
-   - potencia_reactiva[12.0,6.0] ^2 ] >= 0
- qc15: [ - potencia_activa[12.0,6.0] ^2 - potencia_reactiva[12.0,6.0] ^2
+ qc7: [ - potencia_activa[12.0,6.0] ^2 - potencia_reactiva[12.0,6.0] ^2
    + voltaje_sqr[6.0] * corriente_sqr[12.0,6.0] ] >= 0
- qc16: corriente_sqr[11.0,13.0] + [ - potencia_activa[11.0,13.0] ^2
-   - potencia_reactiva[11.0,13.0] ^2 ] >= 0
- qc17: [ - potencia_activa[11.0,13.0] ^2 - potencia_reactiva[11.0,13.0] ^2
+ qc8: [ - potencia_activa[11.0,13.0] ^2 - potencia_reactiva[11.0,13.0] ^2
    + voltaje_sqr[13.0] * corriente_sqr[11.0,13.0] ] >= 0
- qc18: corriente_sqr[11.0,10.0] + [ - potencia_activa[11.0,10.0] ^2
-   - potencia_reactiva[11.0,10.0] ^2 ] >= 0
- qc19: [ - potencia_activa[11.0,10.0] ^2 - potencia_reactiva[11.0,10.0] ^2
+ qc9: [ - potencia_activa[11.0,10.0] ^2 - potencia_reactiva[11.0,10.0] ^2
    + voltaje_sqr[10.0] * corriente_sqr[11.0,10.0] ] >= 0
- qc20: corriente_sqr[10.0,11.0] + [ - potencia_activa[10.0,11.0] ^2
-   - potencia_reactiva[10.0,11.0] ^2 ] >= 0
- qc21: [ - potencia_activa[10.0,11.0] ^2 - potencia_reactiva[10.0,11.0] ^2
+ qc10: [ - potencia_activa[10.0,11.0] ^2 - potencia_reactiva[10.0,11.0] ^2
    + voltaje_sqr[11.0] * corriente_sqr[10.0,11.0] ] >= 0
- qc22: corriente_sqr[10.0,1.0] + [ - potencia_activa[10.0,1.0] ^2
-   - potencia_reactiva[10.0,1.0] ^2 ] >= 0
- qc23: [ - potencia_activa[10.0,1.0] ^2 - potencia_reactiva[10.0,1.0] ^2
+ qc11: [ - potencia_activa[10.0,1.0] ^2 - potencia_reactiva[10.0,1.0] ^2
    + voltaje_sqr[1.0] * corriente_sqr[10.0,1.0] ] >= 0
- qc24: corriente_sqr[9.0,14.0] + [ - potencia_activa[9.0,14.0] ^2
-   - potencia_reactiva[9.0,14.0] ^2 ] >= 0
- qc25: [ - potencia_activa[9.0,14.0] ^2 - potencia_reactiva[9.0,14.0] ^2
+ qc12: [ - potencia_activa[9.0,14.0] ^2 - potencia_reactiva[9.0,14.0] ^2
    + voltaje_sqr[14.0] * corriente_sqr[9.0,14.0] ] >= 0
- qc26: corriente_sqr[9.0,8.0] + [ - potencia_activa[9.0,8.0] ^2
-   - potencia_reactiva[9.0,8.0] ^2 ] >= 0
- qc27: [ - potencia_activa[9.0,8.0] ^2 - potencia_reactiva[9.0,8.0] ^2
+ qc13: [ - potencia_activa[9.0,8.0] ^2 - potencia_reactiva[9.0,8.0] ^2
    + voltaje_sqr[8.0] * corriente_sqr[9.0,8.0] ] >= 0
- qc28: corriente_sqr[9.0,7.0] + [ - potencia_activa[9.0,7.0] ^2
-   - potencia_reactiva[9.0,7.0] ^2 ] >= 0
- qc29: [ - potencia_activa[9.0,7.0] ^2 - potencia_reactiva[9.0,7.0] ^2
+ qc14: [ - potencia_activa[9.0,7.0] ^2 - potencia_reactiva[9.0,7.0] ^2
    + voltaje_sqr[7.0] * corriente_sqr[9.0,7.0] ] >= 0
- qc30: corriente_sqr[8.0,9.0] + [ - potencia_activa[8.0,9.0] ^2
-   - potencia_reactiva[8.0,9.0] ^2 ] >= 0
- qc31: [ - potencia_activa[8.0,9.0] ^2 - potencia_reactiva[8.0,9.0] ^2
+ qc15: [ - potencia_activa[8.0,9.0] ^2 - potencia_reactiva[8.0,9.0] ^2
    + voltaje_sqr[9.0] * corriente_sqr[8.0,9.0] ] >= 0
- qc32: corriente_sqr[8.0,6.0] + [ - potencia_activa[8.0,6.0] ^2
-   - potencia_reactiva[8.0,6.0] ^2 ] >= 0
- qc33: [ - potencia_activa[8.0,6.0] ^2 - potencia_reactiva[8.0,6.0] ^2
+ qc16: [ - potencia_activa[8.0,6.0] ^2 - potencia_reactiva[8.0,6.0] ^2
    + voltaje_sqr[6.0] * corriente_sqr[8.0,6.0] ] >= 0
- qc34: corriente_sqr[8.0,5.0] + [ - potencia_activa[8.0,5.0] ^2
-   - potencia_reactiva[8.0,5.0] ^2 ] >= 0
- qc35: [ - potencia_activa[8.0,5.0] ^2 - potencia_reactiva[8.0,5.0] ^2
+ qc17: [ - potencia_activa[8.0,5.0] ^2 - potencia_reactiva[8.0,5.0] ^2
    + voltaje_sqr[5.0] * corriente_sqr[8.0,5.0] ] >= 0
- qc36: corriente_sqr[7.0,9.0] + [ - potencia_activa[7.0,9.0] ^2
-   - potencia_reactiva[7.0,9.0] ^2 ] >= 0
- qc37: [ - potencia_activa[7.0,9.0] ^2 - potencia_reactiva[7.0,9.0] ^2
+ qc18: [ - potencia_activa[7.0,9.0] ^2 - potencia_reactiva[7.0,9.0] ^2
    + voltaje_sqr[9.0] * corriente_sqr[7.0,9.0] ] >= 0
- qc38: corriente_sqr[7.0,3.0] + [ - potencia_activa[7.0,3.0] ^2
-   - potencia_reactiva[7.0,3.0] ^2 ] >= 0
- qc39: [ - potencia_activa[7.0,3.0] ^2 - potencia_reactiva[7.0,3.0] ^2
+ qc19: [ - potencia_activa[7.0,3.0] ^2 - potencia_reactiva[7.0,3.0] ^2
    + voltaje_sqr[3.0] * corriente_sqr[7.0,3.0] ] >= 0
- qc40: corriente_sqr[6.0,8.0] + [ - potencia_activa[6.0,8.0] ^2
-   - potencia_reactiva[6.0,8.0] ^2 ] >= 0
- qc41: [ - potencia_activa[6.0,8.0] ^2 - potencia_reactiva[6.0,8.0] ^2
+ qc20: [ - potencia_activa[6.0,8.0] ^2 - potencia_reactiva[6.0,8.0] ^2
    + voltaje_sqr[8.0] * corriente_sqr[6.0,8.0] ] >= 0
- qc42: corriente_sqr[6.0,12.0] + [ - potencia_activa[6.0,12.0] ^2
-   - potencia_reactiva[6.0,12.0] ^2 ] >= 0
- qc43: [ - potencia_activa[6.0,12.0] ^2 - potencia_reactiva[6.0,12.0] ^2
+ qc21: [ - potencia_activa[6.0,12.0] ^2 - potencia_reactiva[6.0,12.0] ^2
    + voltaje_sqr[12.0] * corriente_sqr[6.0,12.0] ] >= 0
- qc44: corriente_sqr[5.0,8.0] + [ - potencia_activa[5.0,8.0] ^2
-   - potencia_reactiva[5.0,8.0] ^2 ] >= 0
- qc45: [ - potencia_activa[5.0,8.0] ^2 - potencia_reactiva[5.0,8.0] ^2
+ qc22: [ - potencia_activa[5.0,8.0] ^2 - potencia_reactiva[5.0,8.0] ^2
    + voltaje_sqr[8.0] * corriente_sqr[5.0,8.0] ] >= 0
- qc46: corriente_sqr[4.0,14.0] + [ - potencia_activa[4.0,14.0] ^2
-   - potencia_reactiva[4.0,14.0] ^2 ] >= 0
- qc47: [ - potencia_activa[4.0,14.0] ^2 - potencia_reactiva[4.0,14.0] ^2
+ qc23: [ - potencia_activa[4.0,14.0] ^2 - potencia_reactiva[4.0,14.0] ^2
    + voltaje_sqr[14.0] * corriente_sqr[4.0,14.0] ] >= 0
- qc48: corriente_sqr[4.0,3.0] + [ - potencia_activa[4.0,3.0] ^2
-   - potencia_reactiva[4.0,3.0] ^2 ] >= 0
- qc49: [ - potencia_activa[4.0,3.0] ^2 - potencia_reactiva[4.0,3.0] ^2
+ qc24: [ - potencia_activa[4.0,3.0] ^2 - potencia_reactiva[4.0,3.0] ^2
    + voltaje_sqr[3.0] * corriente_sqr[4.0,3.0] ] >= 0
- qc50: corriente_sqr[4.0,2.0] + [ - potencia_activa[4.0,2.0] ^2
-   - potencia_reactiva[4.0,2.0] ^2 ] >= 0
- qc51: [ - potencia_activa[4.0,2.0] ^2 - potencia_reactiva[4.0,2.0] ^2
+ qc25: [ - potencia_activa[4.0,2.0] ^2 - potencia_reactiva[4.0,2.0] ^2
    + voltaje_sqr[2.0] * corriente_sqr[4.0,2.0] ] >= 0
- qc52: corriente_sqr[3.0,4.0] + [ - potencia_activa[3.0,4.0] ^2
-   - potencia_reactiva[3.0,4.0] ^2 ] >= 0
- qc53: [ - potencia_activa[3.0,4.0] ^2 - potencia_reactiva[3.0,4.0] ^2
+ qc26: [ - potencia_activa[3.0,4.0] ^2 - potencia_reactiva[3.0,4.0] ^2
    + voltaje_sqr[4.0] * corriente_sqr[3.0,4.0] ] >= 0
- qc54: corriente_sqr[3.0,7.0] + [ - potencia_activa[3.0,7.0] ^2
-   - potencia_reactiva[3.0,7.0] ^2 ] >= 0
- qc55: [ - potencia_activa[3.0,7.0] ^2 - potencia_reactiva[3.0,7.0] ^2
+ qc27: [ - potencia_activa[3.0,7.0] ^2 - potencia_reactiva[3.0,7.0] ^2
    + voltaje_sqr[7.0] * corriente_sqr[3.0,7.0] ] >= 0
- qc56: corriente_sqr[2.0,4.0] + [ - potencia_activa[2.0,4.0] ^2
-   - potencia_reactiva[2.0,4.0] ^2 ] >= 0
- qc57: [ - potencia_activa[2.0,4.0] ^2 - potencia_reactiva[2.0,4.0] ^2
+ qc28: [ - potencia_activa[2.0,4.0] ^2 - potencia_reactiva[2.0,4.0] ^2
    + voltaje_sqr[4.0] * corriente_sqr[2.0,4.0] ] >= 0
- qc58: corriente_sqr[2.0,1.0] + [ - potencia_activa[2.0,1.0] ^2
-   - potencia_reactiva[2.0,1.0] ^2 ] >= 0
- qc59: [ - potencia_activa[2.0,1.0] ^2 - potencia_reactiva[2.0,1.0] ^2
+ qc29: [ - potencia_activa[2.0,1.0] ^2 - potencia_reactiva[2.0,1.0] ^2
    + voltaje_sqr[1.0] * corriente_sqr[2.0,1.0] ] >= 0
- qc60: corriente_sqr[1.0,2.0] + [ - potencia_activa[1.0,2.0] ^2
-   - potencia_reactiva[1.0,2.0] ^2 ] >= 0
- qc61: [ - potencia_activa[1.0,2.0] ^2 - potencia_reactiva[1.0,2.0] ^2
+ qc30: [ - potencia_activa[1.0,2.0] ^2 - potencia_reactiva[1.0,2.0] ^2
    + voltaje_sqr[2.0] * corriente_sqr[1.0,2.0] ] >= 0
- qc62: corriente_sqr[1.0,10.0] + [ - potencia_activa[1.0,10.0] ^2
-   - potencia_reactiva[1.0,10.0] ^2 ] >= 0
- qc63: [ - potencia_activa[1.0,10.0] ^2 - potencia_reactiva[1.0,10.0] ^2
+ qc31: [ - potencia_activa[1.0,10.0] ^2 - potencia_reactiva[1.0,10.0] ^2
    + voltaje_sqr[10.0] * corriente_sqr[1.0,10.0] ] >= 0
 Bounds
  potencia_activa[14.0,13.0] <= 5
@@ -531,20 +467,20 @@ Bounds
  potencia_reactiva[2.0,1.0] <= 5
  potencia_reactiva[1.0,2.0] <= 5
  potencia_reactiva[1.0,10.0] <= 5
- voltaje_sqr[14.0] <= 1
- voltaje_sqr[13.0] <= 1
- voltaje_sqr[12.0] <= 1
- voltaje_sqr[11.0] <= 1
- voltaje_sqr[10.0] <= 1
- voltaje_sqr[9.0] <= 1
- voltaje_sqr[8.0] <= 1
- voltaje_sqr[7.0] <= 1
- voltaje_sqr[6.0] <= 1
- voltaje_sqr[5.0] <= 1
- voltaje_sqr[4.0] <= 1
- voltaje_sqr[3.0] <= 1
- voltaje_sqr[2.0] <= 1
- voltaje_sqr[1.0] <= 1
+ 0.9025 <= voltaje_sqr[14.0] <= 1
+ 0.9025 <= voltaje_sqr[13.0] <= 1
+ 0.9025 <= voltaje_sqr[12.0] <= 1
+ 0.9025 <= voltaje_sqr[11.0] <= 1
+ 0.9025 <= voltaje_sqr[10.0] <= 1
+ 0.9025 <= voltaje_sqr[9.0] <= 1
+ 0.9025 <= voltaje_sqr[8.0] <= 1
+ 0.9025 <= voltaje_sqr[7.0] <= 1
+ 0.9025 <= voltaje_sqr[6.0] <= 1
+ 0.9025 <= voltaje_sqr[5.0] <= 1
+ 0.9025 <= voltaje_sqr[4.0] <= 1
+ 0.9025 <= voltaje_sqr[3.0] <= 1
+ 0.9025 <= voltaje_sqr[2.0] <= 1
+ 0.9025 <= voltaje_sqr[1.0] <= 1
  corriente_sqr[14.0,13.0] <= 25
  corriente_sqr[14.0,9.0] <= 25
  corriente_sqr[14.0,4.0] <= 25
@@ -577,38 +513,38 @@ Bounds
  corriente_sqr[2.0,1.0] <= 25
  corriente_sqr[1.0,2.0] <= 25
  corriente_sqr[1.0,10.0] <= 25
- -1 <= delta[14.0,13.0] <= 1
- -1 <= delta[14.0,9.0] <= 1
- -1 <= delta[14.0,4.0] <= 1
- -1 <= delta[13.0,14.0] <= 1
- -1 <= delta[13.0,12.0] <= 1
- -1 <= delta[13.0,11.0] <= 1
- -1 <= delta[12.0,13.0] <= 1
- -1 <= delta[12.0,6.0] <= 1
- -1 <= delta[11.0,13.0] <= 1
- -1 <= delta[11.0,10.0] <= 1
- -1 <= delta[10.0,11.0] <= 1
- -1 <= delta[10.0,1.0] <= 1
- -1 <= delta[9.0,14.0] <= 1
- -1 <= delta[9.0,8.0] <= 1
- -1 <= delta[9.0,7.0] <= 1
- -1 <= delta[8.0,9.0] <= 1
- -1 <= delta[8.0,6.0] <= 1
- -1 <= delta[8.0,5.0] <= 1
- -1 <= delta[7.0,9.0] <= 1
- -1 <= delta[7.0,3.0] <= 1
- -1 <= delta[6.0,8.0] <= 1
- -1 <= delta[6.0,12.0] <= 1
- -1 <= delta[5.0,8.0] <= 1
- -1 <= delta[4.0,14.0] <= 1
- -1 <= delta[4.0,3.0] <= 1
- -1 <= delta[4.0,2.0] <= 1
- -1 <= delta[3.0,4.0] <= 1
- -1 <= delta[3.0,7.0] <= 1
- -1 <= delta[2.0,4.0] <= 1
- -1 <= delta[2.0,1.0] <= 1
- -1 <= delta[1.0,2.0] <= 1
- -1 <= delta[1.0,10.0] <= 1
+ -0.05 <= delta[14.0,13.0] <= 0.05
+ -0.05 <= delta[14.0,9.0] <= 0.05
+ -0.05 <= delta[14.0,4.0] <= 0.05
+ -0.05 <= delta[13.0,14.0] <= 0.05
+ -0.05 <= delta[13.0,12.0] <= 0.05
+ -0.05 <= delta[13.0,11.0] <= 0.05
+ -0.05 <= delta[12.0,13.0] <= 0.05
+ -0.05 <= delta[12.0,6.0] <= 0.05
+ -0.05 <= delta[11.0,13.0] <= 0.05
+ -0.05 <= delta[11.0,10.0] <= 0.05
+ -0.05 <= delta[10.0,11.0] <= 0.05
+ -0.05 <= delta[10.0,1.0] <= 0.05
+ -0.05 <= delta[9.0,14.0] <= 0.05
+ -0.05 <= delta[9.0,8.0] <= 0.05
+ -0.05 <= delta[9.0,7.0] <= 0.05
+ -0.05 <= delta[8.0,9.0] <= 0.05
+ -0.05 <= delta[8.0,6.0] <= 0.05
+ -0.05 <= delta[8.0,5.0] <= 0.05
+ -0.05 <= delta[7.0,9.0] <= 0.05
+ -0.05 <= delta[7.0,3.0] <= 0.05
+ -0.05 <= delta[6.0,8.0] <= 0.05
+ -0.05 <= delta[6.0,12.0] <= 0.05
+ -0.05 <= delta[5.0,8.0] <= 0.05
+ -0.05 <= delta[4.0,14.0] <= 0.05
+ -0.05 <= delta[4.0,3.0] <= 0.05
+ -0.05 <= delta[4.0,2.0] <= 0.05
+ -0.05 <= delta[3.0,4.0] <= 0.05
+ -0.05 <= delta[3.0,7.0] <= 0.05
+ -0.05 <= delta[2.0,4.0] <= 0.05
+ -0.05 <= delta[2.0,1.0] <= 0.05
+ -0.05 <= delta[1.0,2.0] <= 0.05
+ -0.05 <= delta[1.0,10.0] <= 0.05
 Binaries
  estado_disyuntor[14.0,13.0] estado_disyuntor[14.0,9.0]
  estado_disyuntor[14.0,4.0] estado_disyuntor[13.0,14.0]

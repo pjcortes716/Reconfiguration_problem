@@ -150,785 +150,817 @@ Subject To
  R71: - 25 estado_disyuntor[33.0,18.0] + corriente_sqr[33.0,18.0] <= 0
  R72: - 25 estado_disyuntor[25.0,29.0] + corriente_sqr[25.0,29.0] <= 0
  R73: - 25 estado_disyuntor[29.0,25.0] + corriente_sqr[29.0,25.0] <= 0
- R74: estado_disyuntor[1.0,2.0] >= 1
- R75: estado_disyuntor[1.0,2.0] + estado_disyuntor[3.0,2.0]
-   + estado_disyuntor[19.0,2.0] = 1
- R76: estado_disyuntor[2.0,3.0] + estado_disyuntor[4.0,3.0]
-   + estado_disyuntor[23.0,3.0] = 1
- R77: estado_disyuntor[3.0,4.0] + estado_disyuntor[5.0,4.0] = 1
- R78: estado_disyuntor[4.0,5.0] + estado_disyuntor[6.0,5.0] = 1
- R79: estado_disyuntor[5.0,6.0] + estado_disyuntor[7.0,6.0]
-   + estado_disyuntor[26.0,6.0] = 1
- R80: estado_disyuntor[6.0,7.0] + estado_disyuntor[8.0,7.0] = 1
- R81: estado_disyuntor[7.0,8.0] + estado_disyuntor[9.0,8.0]
-   + estado_disyuntor[21.0,8.0] = 1
- R82: estado_disyuntor[8.0,9.0] + estado_disyuntor[10.0,9.0]
-   + estado_disyuntor[15.0,9.0] = 1
- R83: estado_disyuntor[9.0,10.0] + estado_disyuntor[11.0,10.0] = 1
- R84: estado_disyuntor[10.0,11.0] + estado_disyuntor[12.0,11.0] = 1
- R85: estado_disyuntor[11.0,12.0] + estado_disyuntor[13.0,12.0]
-   + estado_disyuntor[22.0,12.0] = 1
- R86: estado_disyuntor[12.0,13.0] + estado_disyuntor[14.0,13.0] = 1
- R87: estado_disyuntor[13.0,14.0] + estado_disyuntor[15.0,14.0] = 1
- R88: estado_disyuntor[9.0,15.0] + estado_disyuntor[14.0,15.0]
-   + estado_disyuntor[16.0,15.0] = 1
- R89: estado_disyuntor[15.0,16.0] + estado_disyuntor[17.0,16.0] = 1
- R90: estado_disyuntor[16.0,17.0] + estado_disyuntor[18.0,17.0] = 1
- R91: estado_disyuntor[17.0,18.0] + estado_disyuntor[33.0,18.0] = 1
- R92: estado_disyuntor[2.0,19.0] + estado_disyuntor[20.0,19.0] = 1
- R93: estado_disyuntor[19.0,20.0] + estado_disyuntor[21.0,20.0] = 1
- R94: estado_disyuntor[8.0,21.0] + estado_disyuntor[20.0,21.0]
-   + estado_disyuntor[22.0,21.0] = 1
- R95: estado_disyuntor[12.0,22.0] + estado_disyuntor[21.0,22.0] = 1
- R96: estado_disyuntor[3.0,23.0] + estado_disyuntor[24.0,23.0] = 1
- R97: estado_disyuntor[23.0,24.0] + estado_disyuntor[25.0,24.0] = 1
- R98: estado_disyuntor[24.0,25.0] + estado_disyuntor[29.0,25.0] = 1
- R99: estado_disyuntor[6.0,26.0] + estado_disyuntor[27.0,26.0] = 1
- R100: estado_disyuntor[26.0,27.0] + estado_disyuntor[28.0,27.0] = 1
- R101: estado_disyuntor[27.0,28.0] + estado_disyuntor[29.0,28.0] = 1
- R102: estado_disyuntor[25.0,29.0] + estado_disyuntor[28.0,29.0]
-   + estado_disyuntor[30.0,29.0] = 1
- R103: estado_disyuntor[29.0,30.0] + estado_disyuntor[31.0,30.0] = 1
- R104: estado_disyuntor[30.0,31.0] + estado_disyuntor[32.0,31.0] = 1
- R105: estado_disyuntor[31.0,32.0] + estado_disyuntor[33.0,32.0] = 1
- R106: estado_disyuntor[18.0,33.0] + estado_disyuntor[32.0,33.0] = 1
- R107: - 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] >= -0.2
- R108: 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] <= 0.2
- R109: - 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] >= -0.2
- R110: 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] <= 0.2
- R111: - 0.2 estado_disyuntor[2.0,3.0] - delta[2.0,3.0] >= -0.2
- R112: 0.2 estado_disyuntor[2.0,3.0] - delta[2.0,3.0] <= 0.2
- R113: - 0.2 estado_disyuntor[2.0,19.0] - delta[2.0,19.0] >= -0.2
- R114: 0.2 estado_disyuntor[2.0,19.0] - delta[2.0,19.0] <= 0.2
- R115: - 0.2 estado_disyuntor[3.0,2.0] - delta[3.0,2.0] >= -0.2
- R116: 0.2 estado_disyuntor[3.0,2.0] - delta[3.0,2.0] <= 0.2
- R117: - 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] >= -0.2
- R118: 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] <= 0.2
- R119: - 0.2 estado_disyuntor[3.0,23.0] - delta[3.0,23.0] >= -0.2
- R120: 0.2 estado_disyuntor[3.0,23.0] - delta[3.0,23.0] <= 0.2
- R121: - 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] >= -0.2
- R122: 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] <= 0.2
- R123: - 0.2 estado_disyuntor[4.0,5.0] - delta[4.0,5.0] >= -0.2
- R124: 0.2 estado_disyuntor[4.0,5.0] - delta[4.0,5.0] <= 0.2
- R125: - 0.2 estado_disyuntor[5.0,4.0] - delta[5.0,4.0] >= -0.2
- R126: 0.2 estado_disyuntor[5.0,4.0] - delta[5.0,4.0] <= 0.2
- R127: - 0.2 estado_disyuntor[5.0,6.0] - delta[5.0,6.0] >= -0.2
- R128: 0.2 estado_disyuntor[5.0,6.0] - delta[5.0,6.0] <= 0.2
- R129: - 0.2 estado_disyuntor[6.0,5.0] - delta[6.0,5.0] >= -0.2
- R130: 0.2 estado_disyuntor[6.0,5.0] - delta[6.0,5.0] <= 0.2
- R131: - 0.2 estado_disyuntor[6.0,7.0] - delta[6.0,7.0] >= -0.2
- R132: 0.2 estado_disyuntor[6.0,7.0] - delta[6.0,7.0] <= 0.2
- R133: - 0.2 estado_disyuntor[6.0,26.0] - delta[6.0,26.0] >= -0.2
- R134: 0.2 estado_disyuntor[6.0,26.0] - delta[6.0,26.0] <= 0.2
- R135: - 0.2 estado_disyuntor[7.0,6.0] - delta[7.0,6.0] >= -0.2
- R136: 0.2 estado_disyuntor[7.0,6.0] - delta[7.0,6.0] <= 0.2
- R137: - 0.2 estado_disyuntor[7.0,8.0] - delta[7.0,8.0] >= -0.2
- R138: 0.2 estado_disyuntor[7.0,8.0] - delta[7.0,8.0] <= 0.2
- R139: - 0.2 estado_disyuntor[8.0,7.0] - delta[8.0,7.0] >= -0.2
- R140: 0.2 estado_disyuntor[8.0,7.0] - delta[8.0,7.0] <= 0.2
- R141: - 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] >= -0.2
- R142: 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] <= 0.2
- R143: - 0.2 estado_disyuntor[8.0,21.0] - delta[8.0,21.0] >= -0.2
- R144: 0.2 estado_disyuntor[8.0,21.0] - delta[8.0,21.0] <= 0.2
- R145: - 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] >= -0.2
- R146: 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] <= 0.2
- R147: - 0.2 estado_disyuntor[9.0,10.0] - delta[9.0,10.0] >= -0.2
- R148: 0.2 estado_disyuntor[9.0,10.0] - delta[9.0,10.0] <= 0.2
- R149: - 0.2 estado_disyuntor[9.0,15.0] - delta[9.0,15.0] >= -0.2
- R150: 0.2 estado_disyuntor[9.0,15.0] - delta[9.0,15.0] <= 0.2
- R151: - 0.2 estado_disyuntor[10.0,9.0] - delta[10.0,9.0] >= -0.2
- R152: 0.2 estado_disyuntor[10.0,9.0] - delta[10.0,9.0] <= 0.2
- R153: - 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] >= -0.2
- R154: 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] <= 0.2
- R155: - 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] >= -0.2
- R156: 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] <= 0.2
- R157: - 0.2 estado_disyuntor[11.0,12.0] - delta[11.0,12.0] >= -0.2
- R158: 0.2 estado_disyuntor[11.0,12.0] - delta[11.0,12.0] <= 0.2
- R159: - 0.2 estado_disyuntor[12.0,11.0] - delta[12.0,11.0] >= -0.2
- R160: 0.2 estado_disyuntor[12.0,11.0] - delta[12.0,11.0] <= 0.2
- R161: - 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] >= -0.2
- R162: 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] <= 0.2
- R163: - 0.2 estado_disyuntor[12.0,22.0] - delta[12.0,22.0] >= -0.2
- R164: 0.2 estado_disyuntor[12.0,22.0] - delta[12.0,22.0] <= 0.2
- R165: - 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] >= -0.2
- R166: 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] <= 0.2
- R167: - 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] >= -0.2
- R168: 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] <= 0.2
- R169: - 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] >= -0.2
- R170: 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] <= 0.2
- R171: - 0.2 estado_disyuntor[14.0,15.0] - delta[14.0,15.0] >= -0.2
- R172: 0.2 estado_disyuntor[14.0,15.0] - delta[14.0,15.0] <= 0.2
- R173: - 0.2 estado_disyuntor[15.0,14.0] - delta[15.0,14.0] >= -0.2
- R174: 0.2 estado_disyuntor[15.0,14.0] - delta[15.0,14.0] <= 0.2
- R175: - 0.2 estado_disyuntor[15.0,16.0] - delta[15.0,16.0] >= -0.2
- R176: 0.2 estado_disyuntor[15.0,16.0] - delta[15.0,16.0] <= 0.2
- R177: - 0.2 estado_disyuntor[15.0,9.0] - delta[15.0,9.0] >= -0.2
- R178: 0.2 estado_disyuntor[15.0,9.0] - delta[15.0,9.0] <= 0.2
- R179: - 0.2 estado_disyuntor[16.0,15.0] - delta[16.0,15.0] >= -0.2
- R180: 0.2 estado_disyuntor[16.0,15.0] - delta[16.0,15.0] <= 0.2
- R181: - 0.2 estado_disyuntor[16.0,17.0] - delta[16.0,17.0] >= -0.2
- R182: 0.2 estado_disyuntor[16.0,17.0] - delta[16.0,17.0] <= 0.2
- R183: - 0.2 estado_disyuntor[17.0,16.0] - delta[17.0,16.0] >= -0.2
- R184: 0.2 estado_disyuntor[17.0,16.0] - delta[17.0,16.0] <= 0.2
- R185: - 0.2 estado_disyuntor[17.0,18.0] - delta[17.0,18.0] >= -0.2
- R186: 0.2 estado_disyuntor[17.0,18.0] - delta[17.0,18.0] <= 0.2
- R187: - 0.2 estado_disyuntor[18.0,17.0] - delta[18.0,17.0] >= -0.2
- R188: 0.2 estado_disyuntor[18.0,17.0] - delta[18.0,17.0] <= 0.2
- R189: - 0.2 estado_disyuntor[18.0,33.0] - delta[18.0,33.0] >= -0.2
- R190: 0.2 estado_disyuntor[18.0,33.0] - delta[18.0,33.0] <= 0.2
- R191: - 0.2 estado_disyuntor[19.0,2.0] - delta[19.0,2.0] >= -0.2
- R192: 0.2 estado_disyuntor[19.0,2.0] - delta[19.0,2.0] <= 0.2
- R193: - 0.2 estado_disyuntor[19.0,20.0] - delta[19.0,20.0] >= -0.2
- R194: 0.2 estado_disyuntor[19.0,20.0] - delta[19.0,20.0] <= 0.2
- R195: - 0.2 estado_disyuntor[20.0,19.0] - delta[20.0,19.0] >= -0.2
- R196: 0.2 estado_disyuntor[20.0,19.0] - delta[20.0,19.0] <= 0.2
- R197: - 0.2 estado_disyuntor[20.0,21.0] - delta[20.0,21.0] >= -0.2
- R198: 0.2 estado_disyuntor[20.0,21.0] - delta[20.0,21.0] <= 0.2
- R199: - 0.2 estado_disyuntor[21.0,20.0] - delta[21.0,20.0] >= -0.2
- R200: 0.2 estado_disyuntor[21.0,20.0] - delta[21.0,20.0] <= 0.2
- R201: - 0.2 estado_disyuntor[21.0,22.0] - delta[21.0,22.0] >= -0.2
- R202: 0.2 estado_disyuntor[21.0,22.0] - delta[21.0,22.0] <= 0.2
- R203: - 0.2 estado_disyuntor[21.0,8.0] - delta[21.0,8.0] >= -0.2
- R204: 0.2 estado_disyuntor[21.0,8.0] - delta[21.0,8.0] <= 0.2
- R205: - 0.2 estado_disyuntor[22.0,21.0] - delta[22.0,21.0] >= -0.2
- R206: 0.2 estado_disyuntor[22.0,21.0] - delta[22.0,21.0] <= 0.2
- R207: - 0.2 estado_disyuntor[22.0,12.0] - delta[22.0,12.0] >= -0.2
- R208: 0.2 estado_disyuntor[22.0,12.0] - delta[22.0,12.0] <= 0.2
- R209: - 0.2 estado_disyuntor[23.0,3.0] - delta[23.0,3.0] >= -0.2
- R210: 0.2 estado_disyuntor[23.0,3.0] - delta[23.0,3.0] <= 0.2
- R211: - 0.2 estado_disyuntor[23.0,24.0] - delta[23.0,24.0] >= -0.2
- R212: 0.2 estado_disyuntor[23.0,24.0] - delta[23.0,24.0] <= 0.2
- R213: - 0.2 estado_disyuntor[24.0,23.0] - delta[24.0,23.0] >= -0.2
- R214: 0.2 estado_disyuntor[24.0,23.0] - delta[24.0,23.0] <= 0.2
- R215: - 0.2 estado_disyuntor[24.0,25.0] - delta[24.0,25.0] >= -0.2
- R216: 0.2 estado_disyuntor[24.0,25.0] - delta[24.0,25.0] <= 0.2
- R217: - 0.2 estado_disyuntor[25.0,24.0] - delta[25.0,24.0] >= -0.2
- R218: 0.2 estado_disyuntor[25.0,24.0] - delta[25.0,24.0] <= 0.2
- R219: - 0.2 estado_disyuntor[25.0,29.0] - delta[25.0,29.0] >= -0.2
- R220: 0.2 estado_disyuntor[25.0,29.0] - delta[25.0,29.0] <= 0.2
- R221: - 0.2 estado_disyuntor[26.0,6.0] - delta[26.0,6.0] >= -0.2
- R222: 0.2 estado_disyuntor[26.0,6.0] - delta[26.0,6.0] <= 0.2
- R223: - 0.2 estado_disyuntor[26.0,27.0] - delta[26.0,27.0] >= -0.2
- R224: 0.2 estado_disyuntor[26.0,27.0] - delta[26.0,27.0] <= 0.2
- R225: - 0.2 estado_disyuntor[27.0,26.0] - delta[27.0,26.0] >= -0.2
- R226: 0.2 estado_disyuntor[27.0,26.0] - delta[27.0,26.0] <= 0.2
- R227: - 0.2 estado_disyuntor[27.0,28.0] - delta[27.0,28.0] >= -0.2
- R228: 0.2 estado_disyuntor[27.0,28.0] - delta[27.0,28.0] <= 0.2
- R229: - 0.2 estado_disyuntor[28.0,27.0] - delta[28.0,27.0] >= -0.2
- R230: 0.2 estado_disyuntor[28.0,27.0] - delta[28.0,27.0] <= 0.2
- R231: - 0.2 estado_disyuntor[28.0,29.0] - delta[28.0,29.0] >= -0.2
- R232: 0.2 estado_disyuntor[28.0,29.0] - delta[28.0,29.0] <= 0.2
- R233: - 0.2 estado_disyuntor[29.0,28.0] - delta[29.0,28.0] >= -0.2
- R234: 0.2 estado_disyuntor[29.0,28.0] - delta[29.0,28.0] <= 0.2
- R235: - 0.2 estado_disyuntor[29.0,30.0] - delta[29.0,30.0] >= -0.2
- R236: 0.2 estado_disyuntor[29.0,30.0] - delta[29.0,30.0] <= 0.2
- R237: - 0.2 estado_disyuntor[29.0,25.0] - delta[29.0,25.0] >= -0.2
- R238: 0.2 estado_disyuntor[29.0,25.0] - delta[29.0,25.0] <= 0.2
- R239: - 0.2 estado_disyuntor[30.0,29.0] - delta[30.0,29.0] >= -0.2
- R240: 0.2 estado_disyuntor[30.0,29.0] - delta[30.0,29.0] <= 0.2
- R241: - 0.2 estado_disyuntor[30.0,31.0] - delta[30.0,31.0] >= -0.2
- R242: 0.2 estado_disyuntor[30.0,31.0] - delta[30.0,31.0] <= 0.2
- R243: - 0.2 estado_disyuntor[31.0,30.0] - delta[31.0,30.0] >= -0.2
- R244: 0.2 estado_disyuntor[31.0,30.0] - delta[31.0,30.0] <= 0.2
- R245: - 0.2 estado_disyuntor[31.0,32.0] - delta[31.0,32.0] >= -0.2
- R246: 0.2 estado_disyuntor[31.0,32.0] - delta[31.0,32.0] <= 0.2
- R247: - 0.2 estado_disyuntor[32.0,31.0] - delta[32.0,31.0] >= -0.2
- R248: 0.2 estado_disyuntor[32.0,31.0] - delta[32.0,31.0] <= 0.2
- R249: - 0.2 estado_disyuntor[32.0,33.0] - delta[32.0,33.0] >= -0.2
- R250: 0.2 estado_disyuntor[32.0,33.0] - delta[32.0,33.0] <= 0.2
- R251: - 0.2 estado_disyuntor[33.0,32.0] - delta[33.0,32.0] >= -0.2
- R252: 0.2 estado_disyuntor[33.0,32.0] - delta[33.0,32.0] <= 0.2
- R253: - 0.2 estado_disyuntor[33.0,18.0] - delta[33.0,18.0] >= -0.2
- R254: 0.2 estado_disyuntor[33.0,18.0] - delta[33.0,18.0] <= 0.2
- R255: - 0.0115051823234479 potencia_activa[1.0,2.0]
+ R74: estado_disyuntor[1.0,2.0] + estado_disyuntor[2.0,1.0]
+   + estado_disyuntor[2.0,3.0] + estado_disyuntor[2.0,19.0]
+   + estado_disyuntor[3.0,2.0] + estado_disyuntor[3.0,4.0]
+   + estado_disyuntor[3.0,23.0] + estado_disyuntor[4.0,3.0]
+   + estado_disyuntor[4.0,5.0] + estado_disyuntor[5.0,4.0]
+   + estado_disyuntor[5.0,6.0] + estado_disyuntor[6.0,5.0]
+   + estado_disyuntor[6.0,7.0] + estado_disyuntor[6.0,26.0]
+   + estado_disyuntor[7.0,6.0] + estado_disyuntor[7.0,8.0]
+   + estado_disyuntor[8.0,7.0] + estado_disyuntor[8.0,9.0]
+   + estado_disyuntor[8.0,21.0] + estado_disyuntor[9.0,8.0]
+   + estado_disyuntor[9.0,10.0] + estado_disyuntor[9.0,15.0]
+   + estado_disyuntor[10.0,9.0] + estado_disyuntor[10.0,11.0]
+   + estado_disyuntor[11.0,10.0] + estado_disyuntor[11.0,12.0]
+   + estado_disyuntor[12.0,11.0] + estado_disyuntor[12.0,13.0]
+   + estado_disyuntor[12.0,22.0] + estado_disyuntor[13.0,12.0]
+   + estado_disyuntor[13.0,14.0] + estado_disyuntor[14.0,13.0]
+   + estado_disyuntor[14.0,15.0] + estado_disyuntor[15.0,14.0]
+   + estado_disyuntor[15.0,16.0] + estado_disyuntor[15.0,9.0]
+   + estado_disyuntor[16.0,15.0] + estado_disyuntor[16.0,17.0]
+   + estado_disyuntor[17.0,16.0] + estado_disyuntor[17.0,18.0]
+   + estado_disyuntor[18.0,17.0] + estado_disyuntor[18.0,33.0]
+   + estado_disyuntor[19.0,2.0] + estado_disyuntor[19.0,20.0]
+   + estado_disyuntor[20.0,19.0] + estado_disyuntor[20.0,21.0]
+   + estado_disyuntor[21.0,20.0] + estado_disyuntor[21.0,22.0]
+   + estado_disyuntor[21.0,8.0] + estado_disyuntor[22.0,21.0]
+   + estado_disyuntor[22.0,12.0] + estado_disyuntor[23.0,3.0]
+   + estado_disyuntor[23.0,24.0] + estado_disyuntor[24.0,23.0]
+   + estado_disyuntor[24.0,25.0] + estado_disyuntor[25.0,24.0]
+   + estado_disyuntor[25.0,29.0] + estado_disyuntor[26.0,6.0]
+   + estado_disyuntor[26.0,27.0] + estado_disyuntor[27.0,26.0]
+   + estado_disyuntor[27.0,28.0] + estado_disyuntor[28.0,27.0]
+   + estado_disyuntor[28.0,29.0] + estado_disyuntor[29.0,28.0]
+   + estado_disyuntor[29.0,30.0] + estado_disyuntor[29.0,25.0]
+   + estado_disyuntor[30.0,29.0] + estado_disyuntor[30.0,31.0]
+   + estado_disyuntor[31.0,30.0] + estado_disyuntor[31.0,32.0]
+   + estado_disyuntor[32.0,31.0] + estado_disyuntor[32.0,33.0]
+   + estado_disyuntor[33.0,32.0] + estado_disyuntor[33.0,18.0] = 32
+ R75: estado_disyuntor[1.0,2.0] + estado_disyuntor[2.0,1.0] <= 1
+ R76: estado_disyuntor[2.0,3.0] + estado_disyuntor[3.0,2.0] <= 1
+ R77: estado_disyuntor[3.0,4.0] + estado_disyuntor[4.0,3.0] <= 1
+ R78: estado_disyuntor[4.0,5.0] + estado_disyuntor[5.0,4.0] <= 1
+ R79: estado_disyuntor[5.0,6.0] + estado_disyuntor[6.0,5.0] <= 1
+ R80: estado_disyuntor[6.0,7.0] + estado_disyuntor[7.0,6.0] <= 1
+ R81: estado_disyuntor[7.0,8.0] + estado_disyuntor[8.0,7.0] <= 1
+ R82: estado_disyuntor[8.0,9.0] + estado_disyuntor[9.0,8.0] <= 1
+ R83: estado_disyuntor[9.0,10.0] + estado_disyuntor[10.0,9.0] <= 1
+ R84: estado_disyuntor[10.0,11.0] + estado_disyuntor[11.0,10.0] <= 1
+ R85: estado_disyuntor[11.0,12.0] + estado_disyuntor[12.0,11.0] <= 1
+ R86: estado_disyuntor[12.0,13.0] + estado_disyuntor[13.0,12.0] <= 1
+ R87: estado_disyuntor[13.0,14.0] + estado_disyuntor[14.0,13.0] <= 1
+ R88: estado_disyuntor[14.0,15.0] + estado_disyuntor[15.0,14.0] <= 1
+ R89: estado_disyuntor[15.0,16.0] + estado_disyuntor[16.0,15.0] <= 1
+ R90: estado_disyuntor[16.0,17.0] + estado_disyuntor[17.0,16.0] <= 1
+ R91: estado_disyuntor[17.0,18.0] + estado_disyuntor[18.0,17.0] <= 1
+ R92: estado_disyuntor[2.0,19.0] + estado_disyuntor[19.0,2.0] <= 1
+ R93: estado_disyuntor[19.0,20.0] + estado_disyuntor[20.0,19.0] <= 1
+ R94: estado_disyuntor[20.0,21.0] + estado_disyuntor[21.0,20.0] <= 1
+ R95: estado_disyuntor[21.0,22.0] + estado_disyuntor[22.0,21.0] <= 1
+ R96: estado_disyuntor[3.0,23.0] + estado_disyuntor[23.0,3.0] <= 1
+ R97: estado_disyuntor[23.0,24.0] + estado_disyuntor[24.0,23.0] <= 1
+ R98: estado_disyuntor[24.0,25.0] + estado_disyuntor[25.0,24.0] <= 1
+ R99: estado_disyuntor[6.0,26.0] + estado_disyuntor[26.0,6.0] <= 1
+ R100: estado_disyuntor[26.0,27.0] + estado_disyuntor[27.0,26.0] <= 1
+ R101: estado_disyuntor[27.0,28.0] + estado_disyuntor[28.0,27.0] <= 1
+ R102: estado_disyuntor[28.0,29.0] + estado_disyuntor[29.0,28.0] <= 1
+ R103: estado_disyuntor[29.0,30.0] + estado_disyuntor[30.0,29.0] <= 1
+ R104: estado_disyuntor[30.0,31.0] + estado_disyuntor[31.0,30.0] <= 1
+ R105: estado_disyuntor[31.0,32.0] + estado_disyuntor[32.0,31.0] <= 1
+ R106: estado_disyuntor[32.0,33.0] + estado_disyuntor[33.0,32.0] <= 1
+ R107: estado_disyuntor[8.0,21.0] + estado_disyuntor[21.0,8.0] <= 1
+ R108: estado_disyuntor[9.0,15.0] + estado_disyuntor[15.0,9.0] <= 1
+ R109: estado_disyuntor[12.0,22.0] + estado_disyuntor[22.0,12.0] <= 1
+ R110: estado_disyuntor[18.0,33.0] + estado_disyuntor[33.0,18.0] <= 1
+ R111: estado_disyuntor[25.0,29.0] + estado_disyuntor[29.0,25.0] <= 1
+ R112: - 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] >= -0.2
+ R113: 0.2 estado_disyuntor[1.0,2.0] - delta[1.0,2.0] <= 0.2
+ R114: - 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] >= -0.2
+ R115: 0.2 estado_disyuntor[2.0,1.0] - delta[2.0,1.0] <= 0.2
+ R116: - 0.2 estado_disyuntor[2.0,3.0] - delta[2.0,3.0] >= -0.2
+ R117: 0.2 estado_disyuntor[2.0,3.0] - delta[2.0,3.0] <= 0.2
+ R118: - 0.2 estado_disyuntor[2.0,19.0] - delta[2.0,19.0] >= -0.2
+ R119: 0.2 estado_disyuntor[2.0,19.0] - delta[2.0,19.0] <= 0.2
+ R120: - 0.2 estado_disyuntor[3.0,2.0] - delta[3.0,2.0] >= -0.2
+ R121: 0.2 estado_disyuntor[3.0,2.0] - delta[3.0,2.0] <= 0.2
+ R122: - 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] >= -0.2
+ R123: 0.2 estado_disyuntor[3.0,4.0] - delta[3.0,4.0] <= 0.2
+ R124: - 0.2 estado_disyuntor[3.0,23.0] - delta[3.0,23.0] >= -0.2
+ R125: 0.2 estado_disyuntor[3.0,23.0] - delta[3.0,23.0] <= 0.2
+ R126: - 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] >= -0.2
+ R127: 0.2 estado_disyuntor[4.0,3.0] - delta[4.0,3.0] <= 0.2
+ R128: - 0.2 estado_disyuntor[4.0,5.0] - delta[4.0,5.0] >= -0.2
+ R129: 0.2 estado_disyuntor[4.0,5.0] - delta[4.0,5.0] <= 0.2
+ R130: - 0.2 estado_disyuntor[5.0,4.0] - delta[5.0,4.0] >= -0.2
+ R131: 0.2 estado_disyuntor[5.0,4.0] - delta[5.0,4.0] <= 0.2
+ R132: - 0.2 estado_disyuntor[5.0,6.0] - delta[5.0,6.0] >= -0.2
+ R133: 0.2 estado_disyuntor[5.0,6.0] - delta[5.0,6.0] <= 0.2
+ R134: - 0.2 estado_disyuntor[6.0,5.0] - delta[6.0,5.0] >= -0.2
+ R135: 0.2 estado_disyuntor[6.0,5.0] - delta[6.0,5.0] <= 0.2
+ R136: - 0.2 estado_disyuntor[6.0,7.0] - delta[6.0,7.0] >= -0.2
+ R137: 0.2 estado_disyuntor[6.0,7.0] - delta[6.0,7.0] <= 0.2
+ R138: - 0.2 estado_disyuntor[6.0,26.0] - delta[6.0,26.0] >= -0.2
+ R139: 0.2 estado_disyuntor[6.0,26.0] - delta[6.0,26.0] <= 0.2
+ R140: - 0.2 estado_disyuntor[7.0,6.0] - delta[7.0,6.0] >= -0.2
+ R141: 0.2 estado_disyuntor[7.0,6.0] - delta[7.0,6.0] <= 0.2
+ R142: - 0.2 estado_disyuntor[7.0,8.0] - delta[7.0,8.0] >= -0.2
+ R143: 0.2 estado_disyuntor[7.0,8.0] - delta[7.0,8.0] <= 0.2
+ R144: - 0.2 estado_disyuntor[8.0,7.0] - delta[8.0,7.0] >= -0.2
+ R145: 0.2 estado_disyuntor[8.0,7.0] - delta[8.0,7.0] <= 0.2
+ R146: - 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] >= -0.2
+ R147: 0.2 estado_disyuntor[8.0,9.0] - delta[8.0,9.0] <= 0.2
+ R148: - 0.2 estado_disyuntor[8.0,21.0] - delta[8.0,21.0] >= -0.2
+ R149: 0.2 estado_disyuntor[8.0,21.0] - delta[8.0,21.0] <= 0.2
+ R150: - 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] >= -0.2
+ R151: 0.2 estado_disyuntor[9.0,8.0] - delta[9.0,8.0] <= 0.2
+ R152: - 0.2 estado_disyuntor[9.0,10.0] - delta[9.0,10.0] >= -0.2
+ R153: 0.2 estado_disyuntor[9.0,10.0] - delta[9.0,10.0] <= 0.2
+ R154: - 0.2 estado_disyuntor[9.0,15.0] - delta[9.0,15.0] >= -0.2
+ R155: 0.2 estado_disyuntor[9.0,15.0] - delta[9.0,15.0] <= 0.2
+ R156: - 0.2 estado_disyuntor[10.0,9.0] - delta[10.0,9.0] >= -0.2
+ R157: 0.2 estado_disyuntor[10.0,9.0] - delta[10.0,9.0] <= 0.2
+ R158: - 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] >= -0.2
+ R159: 0.2 estado_disyuntor[10.0,11.0] - delta[10.0,11.0] <= 0.2
+ R160: - 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] >= -0.2
+ R161: 0.2 estado_disyuntor[11.0,10.0] - delta[11.0,10.0] <= 0.2
+ R162: - 0.2 estado_disyuntor[11.0,12.0] - delta[11.0,12.0] >= -0.2
+ R163: 0.2 estado_disyuntor[11.0,12.0] - delta[11.0,12.0] <= 0.2
+ R164: - 0.2 estado_disyuntor[12.0,11.0] - delta[12.0,11.0] >= -0.2
+ R165: 0.2 estado_disyuntor[12.0,11.0] - delta[12.0,11.0] <= 0.2
+ R166: - 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] >= -0.2
+ R167: 0.2 estado_disyuntor[12.0,13.0] - delta[12.0,13.0] <= 0.2
+ R168: - 0.2 estado_disyuntor[12.0,22.0] - delta[12.0,22.0] >= -0.2
+ R169: 0.2 estado_disyuntor[12.0,22.0] - delta[12.0,22.0] <= 0.2
+ R170: - 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] >= -0.2
+ R171: 0.2 estado_disyuntor[13.0,12.0] - delta[13.0,12.0] <= 0.2
+ R172: - 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] >= -0.2
+ R173: 0.2 estado_disyuntor[13.0,14.0] - delta[13.0,14.0] <= 0.2
+ R174: - 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] >= -0.2
+ R175: 0.2 estado_disyuntor[14.0,13.0] - delta[14.0,13.0] <= 0.2
+ R176: - 0.2 estado_disyuntor[14.0,15.0] - delta[14.0,15.0] >= -0.2
+ R177: 0.2 estado_disyuntor[14.0,15.0] - delta[14.0,15.0] <= 0.2
+ R178: - 0.2 estado_disyuntor[15.0,14.0] - delta[15.0,14.0] >= -0.2
+ R179: 0.2 estado_disyuntor[15.0,14.0] - delta[15.0,14.0] <= 0.2
+ R180: - 0.2 estado_disyuntor[15.0,16.0] - delta[15.0,16.0] >= -0.2
+ R181: 0.2 estado_disyuntor[15.0,16.0] - delta[15.0,16.0] <= 0.2
+ R182: - 0.2 estado_disyuntor[15.0,9.0] - delta[15.0,9.0] >= -0.2
+ R183: 0.2 estado_disyuntor[15.0,9.0] - delta[15.0,9.0] <= 0.2
+ R184: - 0.2 estado_disyuntor[16.0,15.0] - delta[16.0,15.0] >= -0.2
+ R185: 0.2 estado_disyuntor[16.0,15.0] - delta[16.0,15.0] <= 0.2
+ R186: - 0.2 estado_disyuntor[16.0,17.0] - delta[16.0,17.0] >= -0.2
+ R187: 0.2 estado_disyuntor[16.0,17.0] - delta[16.0,17.0] <= 0.2
+ R188: - 0.2 estado_disyuntor[17.0,16.0] - delta[17.0,16.0] >= -0.2
+ R189: 0.2 estado_disyuntor[17.0,16.0] - delta[17.0,16.0] <= 0.2
+ R190: - 0.2 estado_disyuntor[17.0,18.0] - delta[17.0,18.0] >= -0.2
+ R191: 0.2 estado_disyuntor[17.0,18.0] - delta[17.0,18.0] <= 0.2
+ R192: - 0.2 estado_disyuntor[18.0,17.0] - delta[18.0,17.0] >= -0.2
+ R193: 0.2 estado_disyuntor[18.0,17.0] - delta[18.0,17.0] <= 0.2
+ R194: - 0.2 estado_disyuntor[18.0,33.0] - delta[18.0,33.0] >= -0.2
+ R195: 0.2 estado_disyuntor[18.0,33.0] - delta[18.0,33.0] <= 0.2
+ R196: - 0.2 estado_disyuntor[19.0,2.0] - delta[19.0,2.0] >= -0.2
+ R197: 0.2 estado_disyuntor[19.0,2.0] - delta[19.0,2.0] <= 0.2
+ R198: - 0.2 estado_disyuntor[19.0,20.0] - delta[19.0,20.0] >= -0.2
+ R199: 0.2 estado_disyuntor[19.0,20.0] - delta[19.0,20.0] <= 0.2
+ R200: - 0.2 estado_disyuntor[20.0,19.0] - delta[20.0,19.0] >= -0.2
+ R201: 0.2 estado_disyuntor[20.0,19.0] - delta[20.0,19.0] <= 0.2
+ R202: - 0.2 estado_disyuntor[20.0,21.0] - delta[20.0,21.0] >= -0.2
+ R203: 0.2 estado_disyuntor[20.0,21.0] - delta[20.0,21.0] <= 0.2
+ R204: - 0.2 estado_disyuntor[21.0,20.0] - delta[21.0,20.0] >= -0.2
+ R205: 0.2 estado_disyuntor[21.0,20.0] - delta[21.0,20.0] <= 0.2
+ R206: - 0.2 estado_disyuntor[21.0,22.0] - delta[21.0,22.0] >= -0.2
+ R207: 0.2 estado_disyuntor[21.0,22.0] - delta[21.0,22.0] <= 0.2
+ R208: - 0.2 estado_disyuntor[21.0,8.0] - delta[21.0,8.0] >= -0.2
+ R209: 0.2 estado_disyuntor[21.0,8.0] - delta[21.0,8.0] <= 0.2
+ R210: - 0.2 estado_disyuntor[22.0,21.0] - delta[22.0,21.0] >= -0.2
+ R211: 0.2 estado_disyuntor[22.0,21.0] - delta[22.0,21.0] <= 0.2
+ R212: - 0.2 estado_disyuntor[22.0,12.0] - delta[22.0,12.0] >= -0.2
+ R213: 0.2 estado_disyuntor[22.0,12.0] - delta[22.0,12.0] <= 0.2
+ R214: - 0.2 estado_disyuntor[23.0,3.0] - delta[23.0,3.0] >= -0.2
+ R215: 0.2 estado_disyuntor[23.0,3.0] - delta[23.0,3.0] <= 0.2
+ R216: - 0.2 estado_disyuntor[23.0,24.0] - delta[23.0,24.0] >= -0.2
+ R217: 0.2 estado_disyuntor[23.0,24.0] - delta[23.0,24.0] <= 0.2
+ R218: - 0.2 estado_disyuntor[24.0,23.0] - delta[24.0,23.0] >= -0.2
+ R219: 0.2 estado_disyuntor[24.0,23.0] - delta[24.0,23.0] <= 0.2
+ R220: - 0.2 estado_disyuntor[24.0,25.0] - delta[24.0,25.0] >= -0.2
+ R221: 0.2 estado_disyuntor[24.0,25.0] - delta[24.0,25.0] <= 0.2
+ R222: - 0.2 estado_disyuntor[25.0,24.0] - delta[25.0,24.0] >= -0.2
+ R223: 0.2 estado_disyuntor[25.0,24.0] - delta[25.0,24.0] <= 0.2
+ R224: - 0.2 estado_disyuntor[25.0,29.0] - delta[25.0,29.0] >= -0.2
+ R225: 0.2 estado_disyuntor[25.0,29.0] - delta[25.0,29.0] <= 0.2
+ R226: - 0.2 estado_disyuntor[26.0,6.0] - delta[26.0,6.0] >= -0.2
+ R227: 0.2 estado_disyuntor[26.0,6.0] - delta[26.0,6.0] <= 0.2
+ R228: - 0.2 estado_disyuntor[26.0,27.0] - delta[26.0,27.0] >= -0.2
+ R229: 0.2 estado_disyuntor[26.0,27.0] - delta[26.0,27.0] <= 0.2
+ R230: - 0.2 estado_disyuntor[27.0,26.0] - delta[27.0,26.0] >= -0.2
+ R231: 0.2 estado_disyuntor[27.0,26.0] - delta[27.0,26.0] <= 0.2
+ R232: - 0.2 estado_disyuntor[27.0,28.0] - delta[27.0,28.0] >= -0.2
+ R233: 0.2 estado_disyuntor[27.0,28.0] - delta[27.0,28.0] <= 0.2
+ R234: - 0.2 estado_disyuntor[28.0,27.0] - delta[28.0,27.0] >= -0.2
+ R235: 0.2 estado_disyuntor[28.0,27.0] - delta[28.0,27.0] <= 0.2
+ R236: - 0.2 estado_disyuntor[28.0,29.0] - delta[28.0,29.0] >= -0.2
+ R237: 0.2 estado_disyuntor[28.0,29.0] - delta[28.0,29.0] <= 0.2
+ R238: - 0.2 estado_disyuntor[29.0,28.0] - delta[29.0,28.0] >= -0.2
+ R239: 0.2 estado_disyuntor[29.0,28.0] - delta[29.0,28.0] <= 0.2
+ R240: - 0.2 estado_disyuntor[29.0,30.0] - delta[29.0,30.0] >= -0.2
+ R241: 0.2 estado_disyuntor[29.0,30.0] - delta[29.0,30.0] <= 0.2
+ R242: - 0.2 estado_disyuntor[29.0,25.0] - delta[29.0,25.0] >= -0.2
+ R243: 0.2 estado_disyuntor[29.0,25.0] - delta[29.0,25.0] <= 0.2
+ R244: - 0.2 estado_disyuntor[30.0,29.0] - delta[30.0,29.0] >= -0.2
+ R245: 0.2 estado_disyuntor[30.0,29.0] - delta[30.0,29.0] <= 0.2
+ R246: - 0.2 estado_disyuntor[30.0,31.0] - delta[30.0,31.0] >= -0.2
+ R247: 0.2 estado_disyuntor[30.0,31.0] - delta[30.0,31.0] <= 0.2
+ R248: - 0.2 estado_disyuntor[31.0,30.0] - delta[31.0,30.0] >= -0.2
+ R249: 0.2 estado_disyuntor[31.0,30.0] - delta[31.0,30.0] <= 0.2
+ R250: - 0.2 estado_disyuntor[31.0,32.0] - delta[31.0,32.0] >= -0.2
+ R251: 0.2 estado_disyuntor[31.0,32.0] - delta[31.0,32.0] <= 0.2
+ R252: - 0.2 estado_disyuntor[32.0,31.0] - delta[32.0,31.0] >= -0.2
+ R253: 0.2 estado_disyuntor[32.0,31.0] - delta[32.0,31.0] <= 0.2
+ R254: - 0.2 estado_disyuntor[32.0,33.0] - delta[32.0,33.0] >= -0.2
+ R255: 0.2 estado_disyuntor[32.0,33.0] - delta[32.0,33.0] <= 0.2
+ R256: - 0.2 estado_disyuntor[33.0,32.0] - delta[33.0,32.0] >= -0.2
+ R257: 0.2 estado_disyuntor[33.0,32.0] - delta[33.0,32.0] <= 0.2
+ R258: - 0.2 estado_disyuntor[33.0,18.0] - delta[33.0,18.0] >= -0.2
+ R259: 0.2 estado_disyuntor[33.0,18.0] - delta[33.0,18.0] <= 0.2
+ R260: - 0.0115051823234479 potencia_activa[1.0,2.0]
    - 0.00586489771368817 potencia_reactiva[1.0,2.0] + voltaje_sqr[1.0]
    - voltaje_sqr[2.0] + 4.16916e-05 corriente_sqr[1.0,2.0] - delta[1.0,2.0]
    = 0
- R256: - 0.0115051823234479 potencia_activa[2.0,1.0]
+ R261: - 0.0115051823234479 potencia_activa[2.0,1.0]
    - 0.00586489771368817 potencia_reactiva[2.0,1.0] - voltaje_sqr[1.0]
    + voltaje_sqr[2.0] + 4.16916e-05 corriente_sqr[2.0,1.0] - delta[2.0,1.0]
    = 0
- R257: - 0.0615190334648568 potencia_activa[2.0,3.0]
+ R262: - 0.0615190334648568 potencia_activa[2.0,3.0]
    - 0.0313335279980234 potencia_reactiva[2.0,3.0] + voltaje_sqr[2.0]
    - voltaje_sqr[3.0] + 0.00119159536381327 corriente_sqr[2.0,3.0]
    - delta[2.0,3.0] = 0
- R258: - 0.0204647494690396 potencia_activa[2.0,19.0]
+ R263: - 0.0204647494690396 potencia_activa[2.0,19.0]
    - 0.0195288615360042 potencia_reactiva[2.0,19.0] + voltaje_sqr[2.0]
    - voltaje_sqr[19.0] + 2.0004560093074531e-04 corriente_sqr[2.0,19.0]
    - delta[2.0,19.0] = 0
- R259: - 0.0615190334648568 potencia_activa[3.0,2.0]
+ R264: - 0.0615190334648568 potencia_activa[3.0,2.0]
    - 0.0313335279980234 potencia_reactiva[3.0,2.0] - voltaje_sqr[2.0]
    + voltaje_sqr[3.0] + 0.00119159536381327 corriente_sqr[3.0,2.0]
    - delta[3.0,2.0] = 0
- R260: - 0.0456713311321249 potencia_activa[3.0,4.0]
+ R265: - 0.0456713311321249 potencia_activa[3.0,4.0]
    - 0.0232599347623718 potencia_reactiva[3.0,4.0] + voltaje_sqr[3.0]
    - voltaje_sqr[4.0] + 6.5672376313249872e-04 corriente_sqr[3.0,4.0]
    - delta[3.0,4.0] = 0
- R261: - 0.0563030180514064 potencia_activa[3.0,23.0]
+ R266: - 0.0563030180514064 potencia_activa[3.0,23.0]
    - 0.0384712333006396 potencia_reactiva[3.0,23.0] + voltaje_sqr[3.0]
    - voltaje_sqr[23.0] + 0.00116251640834231 corriente_sqr[3.0,23.0]
    - delta[3.0,23.0] = 0
- R262: - 0.0456713311321249 potencia_activa[4.0,3.0]
+ R267: - 0.0456713311321249 potencia_activa[4.0,3.0]
    - 0.0232599347623718 potencia_reactiva[4.0,3.0] - voltaje_sqr[3.0]
    + voltaje_sqr[4.0] + 6.5672376313249872e-04 corriente_sqr[4.0,3.0]
    - delta[4.0,3.0] = 0
- R263: - 0.0475555855039694 potencia_activa[4.0,5.0]
+ R268: - 0.0475555855039694 potencia_activa[4.0,5.0]
    - 0.0242207797069548 potencia_reactiva[4.0,5.0] + voltaje_sqr[4.0]
    - voltaje_sqr[5.0] + 0.000712045 corriente_sqr[4.0,5.0] - delta[4.0,5.0]
    = 0
- R264: - 0.0475555855039694 potencia_activa[5.0,4.0]
+ R269: - 0.0475555855039694 potencia_activa[5.0,4.0]
    - 0.0242207797069548 potencia_reactiva[5.0,4.0] - voltaje_sqr[4.0]
    + voltaje_sqr[5.0] + 0.000712045 corriente_sqr[5.0,4.0] - delta[5.0,4.0]
    = 0
- R265: - 0.1021989622874598 potencia_activa[5.0,6.0]
+ R270: - 0.1021989622874598 potencia_activa[5.0,6.0]
    - 0.0882230358207987 potencia_reactiva[5.0,6.0] + voltaje_sqr[5.0]
    - voltaje_sqr[6.0] + 0.00455698298551789 corriente_sqr[5.0,6.0]
    - delta[5.0,6.0] = 0
- R266: - 0.1021989622874598 potencia_activa[6.0,5.0]
+ R271: - 0.1021989622874598 potencia_activa[6.0,5.0]
    - 0.0882230358207987 potencia_reactiva[6.0,5.0] - voltaje_sqr[5.0]
    + voltaje_sqr[6.0] + 0.00455698298551789 corriente_sqr[6.0,5.0]
    - delta[6.0,5.0] = 0
- R267: - 0.0233597628085623 potencia_activa[6.0,7.0]
+ R272: - 0.0233597628085623 potencia_activa[6.0,7.0]
    - 0.077216993728303 potencia_reactiva[6.0,7.0] + voltaje_sqr[6.0]
    - voltaje_sqr[7.0] + 0.00162703565972727 corriente_sqr[6.0,7.0]
    - delta[6.0,7.0] = 0
- R268: - 0.0253313667208234 potencia_activa[6.0,26.0]
+ R273: - 0.0253313667208234 potencia_activa[6.0,26.0]
    - 0.012902774970114 potencia_reactiva[6.0,26.0] + voltaje_sqr[6.0]
    - voltaje_sqr[26.0] + 0.00020204 corriente_sqr[6.0,26.0]
    - delta[6.0,26.0] = 0
- R269: - 0.0233597628085623 potencia_activa[7.0,6.0]
+ R274: - 0.0233597628085623 potencia_activa[7.0,6.0]
    - 0.077216993728303 potencia_reactiva[7.0,6.0] - voltaje_sqr[6.0]
    + voltaje_sqr[7.0] + 0.00162703565972727 corriente_sqr[7.0,6.0]
    - delta[7.0,6.0] = 0
- R270: - 0.0887720900748461 potencia_activa[7.0,8.0]
+ R275: - 0.0887720900748461 potencia_activa[7.0,8.0]
    - 0.0293369670742147 potencia_reactiva[7.0,8.0] + voltaje_sqr[7.0]
    - voltaje_sqr[8.0] + 0.00218528540334254 corriente_sqr[7.0,8.0]
    - delta[7.0,8.0] = 0
- R271: - 0.0887720900748461 potencia_activa[8.0,7.0]
+ R276: - 0.0887720900748461 potencia_activa[8.0,7.0]
    - 0.0293369670742147 potencia_reactiva[8.0,7.0] - voltaje_sqr[7.0]
    + voltaje_sqr[8.0] + 0.00218528540334254 corriente_sqr[8.0,7.0]
    - delta[8.0,7.0] = 0
- R272: - 0.1285286094701876 potencia_activa[8.0,9.0]
+ R277: - 0.1285286094701876 potencia_activa[8.0,9.0]
    - 0.0923409427261542 potencia_reactiva[8.0,9.0] + voltaje_sqr[8.0]
    - voltaje_sqr[9.0] + 0.00626161328897372 corriente_sqr[8.0,9.0]
    - delta[8.0,9.0] = 0
- R273: - 0.2495701154760924 potencia_activa[8.0,21.0]
+ R278: - 0.2495701154760924 potencia_activa[8.0,21.0]
    - 0.2495701154760924 potencia_reactiva[8.0,21.0] + voltaje_sqr[8.0]
    - voltaje_sqr[21.0] + 0.0311426212693751 corriente_sqr[8.0,21.0]
    - delta[8.0,21.0] = 0
- R274: - 0.1285286094701876 potencia_activa[9.0,8.0]
+ R279: - 0.1285286094701876 potencia_activa[9.0,8.0]
    - 0.0923409427261542 potencia_reactiva[9.0,8.0] - voltaje_sqr[8.0]
    + voltaje_sqr[9.0] + 0.00626161328897372 corriente_sqr[9.0,8.0]
    - delta[9.0,8.0] = 0
- R275: - 0.1302756002785203 potencia_activa[9.0,10.0]
+ R280: - 0.1302756002785203 potencia_activa[9.0,10.0]
    - 0.0923409427261542 potencia_reactiva[9.0,10.0] + voltaje_sqr[9.0]
    - voltaje_sqr[10.0] + 0.00637464543287092 corriente_sqr[9.0,10.0]
    - delta[9.0,10.0] = 0
- R276: - 0.2495701154760924 potencia_activa[9.0,15.0]
+ R281: - 0.2495701154760924 potencia_activa[9.0,15.0]
    - 0.2495701154760924 potencia_reactiva[9.0,15.0] + voltaje_sqr[9.0]
    - voltaje_sqr[15.0] + 0.0311426212693751 corriente_sqr[9.0,15.0]
    - delta[9.0,15.0] = 0
- R277: - 0.1302756002785203 potencia_activa[10.0,9.0]
+ R282: - 0.1302756002785203 potencia_activa[10.0,9.0]
    - 0.0923409427261542 potencia_reactiva[10.0,9.0] - voltaje_sqr[9.0]
    + voltaje_sqr[10.0] + 0.00637464543287092 corriente_sqr[10.0,9.0]
    - delta[10.0,9.0] = 0
- R278: - 0.0245327423512999 potencia_activa[10.0,11.0]
+ R283: - 0.0245327423512999 potencia_activa[10.0,11.0]
    - 0.008111028752973 potencia_reactiva[10.0,11.0] + voltaje_sqr[10.0]
    - voltaje_sqr[11.0] + 0.000166911 corriente_sqr[10.0,11.0]
    - delta[10.0,11.0] = 0
- R279: - 0.0245327423512999 potencia_activa[11.0,10.0]
+ R284: - 0.0245327423512999 potencia_activa[11.0,10.0]
    - 0.008111028752973 potencia_reactiva[11.0,10.0] - voltaje_sqr[10.0]
    + voltaje_sqr[11.0] + 0.000166911 corriente_sqr[11.0,10.0]
    - delta[11.0,10.0] = 0
- R280: - 0.0467195256171245 potencia_activa[11.0,12.0]
+ R285: - 0.0467195256171245 potencia_activa[11.0,12.0]
    - 0.0154483901479701 potencia_reactiva[11.0,12.0] + voltaje_sqr[11.0]
    - voltaje_sqr[12.0] + 6.0534170801326327e-04 corriente_sqr[11.0,12.0]
    - delta[11.0,12.0] = 0
- R281: - 0.0467195256171245 potencia_activa[12.0,11.0]
+ R286: - 0.0467195256171245 potencia_activa[12.0,11.0]
    - 0.0154483901479701 potencia_reactiva[12.0,11.0] - voltaje_sqr[11.0]
    + voltaje_sqr[12.0] + 6.0534170801326327e-04 corriente_sqr[12.0,11.0]
    - delta[12.0,11.0] = 0
- R282: - 0.1831844647594518 potencia_activa[12.0,13.0]
+ R287: - 0.1831844647594518 potencia_activa[12.0,13.0]
    - 0.1441267416874434 potencia_reactiva[12.0,13.0] + voltaje_sqr[12.0]
    - voltaje_sqr[13.0] + 0.0135822664496615 corriente_sqr[12.0,13.0]
    - delta[12.0,13.0] = 0
- R283: - 0.2495701154760924 potencia_activa[12.0,22.0]
+ R288: - 0.2495701154760924 potencia_activa[12.0,22.0]
    - 0.2495701154760924 potencia_reactiva[12.0,22.0] + voltaje_sqr[12.0]
    - voltaje_sqr[22.0] + 0.0311426212693751 corriente_sqr[12.0,22.0]
    - delta[12.0,22.0] = 0
- R284: - 0.1831844647594518 potencia_activa[13.0,12.0]
+ R289: - 0.1831844647594518 potencia_activa[13.0,12.0]
    - 0.1441267416874434 potencia_reactiva[13.0,12.0] - voltaje_sqr[12.0]
    + voltaje_sqr[13.0] + 0.0135822664496615 corriente_sqr[13.0,12.0]
    - delta[13.0,12.0] = 0
- R285: - 0.0675835872709258 potencia_activa[13.0,14.0]
+ R290: - 0.0675835872709258 potencia_activa[13.0,14.0]
    - 0.0889592676614531 potencia_reactiva[13.0,14.0] + voltaje_sqr[13.0]
    - voltaje_sqr[14.0] + 0.00312032314281723 corriente_sqr[13.0,14.0]
    - delta[13.0,14.0] = 0
- R286: - 0.0675835872709258 potencia_activa[14.0,13.0]
+ R291: - 0.0675835872709258 potencia_activa[14.0,13.0]
    - 0.0889592676614531 potencia_reactiva[14.0,13.0] - voltaje_sqr[13.0]
    + voltaje_sqr[14.0] + 0.00312032314281723 corriente_sqr[14.0,13.0]
    - delta[14.0,13.0] = 0
- R287: - 0.0737479691231853 potencia_activa[14.0,15.0]
+ R292: - 0.0737479691231853 potencia_activa[14.0,15.0]
    - 0.0656369403702123 potencia_reactiva[14.0,15.0] + voltaje_sqr[14.0]
    - voltaje_sqr[15.0] + 0.00243674272273928 corriente_sqr[14.0,15.0]
    - delta[14.0,15.0] = 0
- R288: - 0.0737479691231853 potencia_activa[15.0,14.0]
+ R293: - 0.0737479691231853 potencia_activa[15.0,14.0]
    - 0.0656369403702123 potencia_reactiva[15.0,14.0] - voltaje_sqr[14.0]
    + voltaje_sqr[15.0] + 0.00243674272273928 corriente_sqr[15.0,14.0]
    - delta[15.0,14.0] = 0
- R289: - 0.0931270885899039 potencia_activa[15.0,16.0]
+ R294: - 0.0931270885899039 potencia_activa[15.0,16.0]
    - 0.0680078564672352 potencia_reactiva[15.0,16.0] + voltaje_sqr[15.0]
    - voltaje_sqr[16.0] + 0.00332443079262497 corriente_sqr[15.0,16.0]
    - delta[15.0,16.0] = 0
- R290: - 0.2495701154760924 potencia_activa[15.0,9.0]
+ R295: - 0.2495701154760924 potencia_activa[15.0,9.0]
    - 0.2495701154760924 potencia_reactiva[15.0,9.0] - voltaje_sqr[9.0]
    + voltaje_sqr[15.0] + 0.0311426212693751 corriente_sqr[15.0,9.0]
    - delta[15.0,9.0] = 0
- R291: - 0.0931270885899039 potencia_activa[16.0,15.0]
+ R296: - 0.0931270885899039 potencia_activa[16.0,15.0]
    - 0.0680078564672352 potencia_reactiva[16.0,15.0] - voltaje_sqr[15.0]
    + voltaje_sqr[16.0] + 0.00332443079262497 corriente_sqr[16.0,15.0]
    - delta[16.0,15.0] = 0
- R292: - 0.1608479394243416 potencia_activa[16.0,17.0]
+ R297: - 0.1608479394243416 potencia_activa[16.0,17.0]
    - 0.2147550843671775 potencia_reactiva[16.0,17.0] + voltaje_sqr[16.0]
    - voltaje_sqr[17.0] + 0.0179979514696525 corriente_sqr[16.0,17.0]
    - delta[16.0,17.0] = 0
- R293: - 0.1608479394243416 potencia_activa[17.0,16.0]
+ R298: - 0.1608479394243416 potencia_activa[17.0,16.0]
    - 0.2147550843671775 potencia_reactiva[17.0,16.0] - voltaje_sqr[16.0]
    + voltaje_sqr[17.0] + 0.0179979514696525 corriente_sqr[17.0,16.0]
    - delta[17.0,16.0] = 0
- R294: - 0.0913426622642498 potencia_activa[17.0,18.0]
+ R299: - 0.0913426622642498 potencia_activa[17.0,18.0]
    - 0.0716266231416385 potencia_reactiva[17.0,18.0] + voltaje_sqr[17.0]
    - voltaje_sqr[18.0] + 0.00336846377304878 corriente_sqr[17.0,18.0]
    - delta[17.0,18.0] = 0
- R295: - 0.0913426622642498 potencia_activa[18.0,17.0]
+ R300: - 0.0913426622642498 potencia_activa[18.0,17.0]
    - 0.0716266231416385 potencia_reactiva[18.0,17.0] - voltaje_sqr[17.0]
    + voltaje_sqr[18.0] + 0.00336846377304878 corriente_sqr[18.0,17.0]
    - delta[18.0,17.0] = 0
- R296: - 0.0623925288690231 potencia_activa[18.0,33.0]
+ R301: - 0.0623925288690231 potencia_activa[18.0,33.0]
    - 0.0623925288690231 potencia_reactiva[18.0,33.0] + voltaje_sqr[18.0]
    - voltaje_sqr[33.0] + 0.00194641382933594 corriente_sqr[18.0,33.0]
    - delta[18.0,33.0] = 0
- R297: - 0.0204647494690396 potencia_activa[19.0,2.0]
+ R302: - 0.0204647494690396 potencia_activa[19.0,2.0]
    - 0.0195288615360042 potencia_reactiva[19.0,2.0] - voltaje_sqr[2.0]
    + voltaje_sqr[19.0] + 2.0004560093074531e-04 corriente_sqr[19.0,2.0]
    - delta[19.0,2.0] = 0
- R298: - 0.1877016838495691 potencia_activa[19.0,20.0]
+ R303: - 0.1877016838495691 potencia_activa[19.0,20.0]
    - 0.1691336672581478 potencia_reactiva[19.0,20.0] + voltaje_sqr[19.0]
    - voltaje_sqr[20.0] + 0.0159595298800384 corriente_sqr[19.0,20.0]
    - delta[19.0,20.0] = 0
- R299: - 0.1877016838495691 potencia_activa[20.0,19.0]
+ R304: - 0.1877016838495691 potencia_activa[20.0,19.0]
    - 0.1691336672581478 potencia_reactiva[20.0,19.0] - voltaje_sqr[19.0]
    + voltaje_sqr[20.0] + 0.0159595298800384 corriente_sqr[20.0,19.0]
    - delta[20.0,19.0] = 0
- R300: - 0.0510994811437299 potencia_activa[20.0,21.0]
+ R305: - 0.0510994811437299 potencia_activa[20.0,21.0]
    - 0.0596971716218813 potencia_reactiva[20.0,21.0] + voltaje_sqr[20.0]
    - voltaje_sqr[21.0] + 0.00154372731820269 corriente_sqr[20.0,21.0]
    - delta[20.0,21.0] = 0
- R301: - 0.0510994811437299 potencia_activa[21.0,20.0]
+ R306: - 0.0510994811437299 potencia_activa[21.0,20.0]
    - 0.0596971716218813 potencia_reactiva[21.0,20.0] - voltaje_sqr[20.0]
    + voltaje_sqr[21.0] + 0.00154372731820269 corriente_sqr[21.0,20.0]
    - delta[21.0,20.0] = 0
- R302: - 0.088460127430501 potencia_activa[21.0,22.0]
+ R307: - 0.088460127430501 potencia_activa[21.0,22.0]
    - 0.1169610346178707 potencia_reactiva[21.0,22.0] + voltaje_sqr[21.0]
    - voltaje_sqr[22.0] + 0.0053762694409758 corriente_sqr[21.0,22.0]
    - delta[21.0,22.0] = 0
- R303: - 0.2495701154760924 potencia_activa[21.0,8.0]
+ R308: - 0.2495701154760924 potencia_activa[21.0,8.0]
    - 0.2495701154760924 potencia_reactiva[21.0,8.0] - voltaje_sqr[8.0]
    + voltaje_sqr[21.0] + 0.0311426212693751 corriente_sqr[21.0,8.0]
    - delta[21.0,8.0] = 0
- R304: - 0.088460127430501 potencia_activa[22.0,21.0]
+ R309: - 0.088460127430501 potencia_activa[22.0,21.0]
    - 0.1169610346178707 potencia_reactiva[22.0,21.0] - voltaje_sqr[21.0]
    + voltaje_sqr[22.0] + 0.0053762694409758 corriente_sqr[22.0,21.0]
    - delta[22.0,21.0] = 0
- R305: - 0.2495701154760924 potencia_activa[22.0,12.0]
+ R310: - 0.2495701154760924 potencia_activa[22.0,12.0]
    - 0.2495701154760924 potencia_reactiva[22.0,12.0] - voltaje_sqr[12.0]
    + voltaje_sqr[22.0] + 0.0311426212693751 corriente_sqr[22.0,12.0]
    - delta[22.0,12.0] = 0
- R306: - 0.0563030180514064 potencia_activa[23.0,3.0]
+ R311: - 0.0563030180514064 potencia_activa[23.0,3.0]
    - 0.0384712333006396 potencia_reactiva[23.0,3.0] - voltaje_sqr[3.0]
    + voltaje_sqr[23.0] + 0.00116251640834231 corriente_sqr[23.0,3.0]
    - delta[23.0,3.0] = 0
- R307: - 0.1120569818487655 potencia_activa[23.0,24.0]
+ R312: - 0.1120569818487655 potencia_activa[23.0,24.0]
    - 0.0884850844420486 potencia_reactiva[23.0,24.0] + voltaje_sqr[23.0]
    - voltaje_sqr[24.0] + 0.00509659433744276 corriente_sqr[23.0,24.0]
    - delta[23.0,24.0] = 0
- R308: - 0.1120569818487655 potencia_activa[24.0,23.0]
+ R313: - 0.1120569818487655 potencia_activa[24.0,23.0]
    - 0.0884850844420486 potencia_reactiva[24.0,23.0] - voltaje_sqr[23.0]
    + voltaje_sqr[24.0] + 0.00509659433744276 corriente_sqr[24.0,23.0]
    - delta[24.0,23.0] = 0
- R309: - 0.1118074117332894 potencia_activa[24.0,25.0]
+ R314: - 0.1118074117332894 potencia_activa[24.0,25.0]
    - 0.0874868039801442 potencia_reactiva[24.0,25.0] + voltaje_sqr[24.0]
    - voltaje_sqr[25.0] + 0.00503870954728937 corriente_sqr[24.0,25.0]
    - delta[24.0,25.0] = 0
- R310: - 0.1118074117332894 potencia_activa[25.0,24.0]
+ R315: - 0.1118074117332894 potencia_activa[25.0,24.0]
    - 0.0874868039801442 potencia_reactiva[25.0,24.0] - voltaje_sqr[24.0]
    + voltaje_sqr[25.0] + 0.00503870954728937 corriente_sqr[25.0,24.0]
    - delta[25.0,24.0] = 0
- R311: - 0.0623925288690231 potencia_activa[25.0,29.0]
+ R316: - 0.0623925288690231 potencia_activa[25.0,29.0]
    - 0.0623925288690231 potencia_reactiva[25.0,29.0] + voltaje_sqr[25.0]
    - voltaje_sqr[29.0] + 0.00194641382933594 corriente_sqr[25.0,29.0]
    - delta[25.0,29.0] = 0
- R312: - 0.0253313667208234 potencia_activa[26.0,6.0]
+ R317: - 0.0253313667208234 potencia_activa[26.0,6.0]
    - 0.012902774970114 potencia_reactiva[26.0,6.0] - voltaje_sqr[6.0]
    + voltaje_sqr[26.0] + 0.00020204 corriente_sqr[26.0,6.0]
    - delta[26.0,6.0] = 0
- R313: - 0.0354639134091527 potencia_activa[26.0,27.0]
+ R318: - 0.0354639134091527 potencia_activa[26.0,27.0]
    - 0.0180563978546953 potencia_reactiva[26.0,27.0] + voltaje_sqr[26.0]
    - voltaje_sqr[27.0] + 3.9593066444473183e-04 corriente_sqr[26.0,27.0]
    - delta[26.0,27.0] = 0
- R314: - 0.0354639134091527 potencia_activa[27.0,26.0]
+ R319: - 0.0354639134091527 potencia_activa[27.0,26.0]
    - 0.0180563978546953 potencia_reactiva[27.0,26.0] - voltaje_sqr[26.0]
    + voltaje_sqr[27.0] + 3.9593066444473183e-04 corriente_sqr[27.0,26.0]
    - delta[27.0,26.0] = 0
- R315: - 0.1321473761445909 potencia_activa[27.0,28.0]
+ R320: - 0.1321473761445909 potencia_activa[27.0,28.0]
    - 0.1165118084100137 potencia_reactiva[27.0,28.0] + voltaje_sqr[27.0]
    - voltaje_sqr[28.0] + 0.00775948263021794 corriente_sqr[27.0,28.0]
    - delta[27.0,28.0] = 0
- R316: - 0.1321473761445909 potencia_activa[28.0,27.0]
+ R321: - 0.1321473761445909 potencia_activa[28.0,27.0]
    - 0.1165118084100137 potencia_reactiva[28.0,27.0] - voltaje_sqr[27.0]
    + voltaje_sqr[28.0] + 0.00775948263021794 corriente_sqr[28.0,27.0]
    - delta[28.0,27.0] = 0
- R317: - 0.1003521434329368 potencia_activa[28.0,29.0]
+ R322: - 0.1003521434329368 potencia_activa[28.0,29.0]
    - 0.0874244114512752 potencia_reactiva[28.0,29.0] + voltaje_sqr[28.0]
    - voltaje_sqr[29.0] + 0.00442839510229664 corriente_sqr[28.0,29.0]
    - delta[28.0,29.0] = 0
- R318: - 0.1003521434329368 potencia_activa[29.0,28.0]
+ R323: - 0.1003521434329368 potencia_activa[29.0,28.0]
    - 0.0874244114512752 potencia_reactiva[29.0,28.0] - voltaje_sqr[28.0]
    + voltaje_sqr[29.0] + 0.00442839510229664 corriente_sqr[29.0,28.0]
    - delta[29.0,28.0] = 0
- R319: - 0.0633284168020584 potencia_activa[29.0,30.0]
+ R324: - 0.0633284168020584 potencia_activa[29.0,30.0]
    - 0.0322569374252849 potencia_reactiva[29.0,30.0] + voltaje_sqr[29.0]
    - voltaje_sqr[30.0] + 0.0012627495966785 corriente_sqr[29.0,30.0]
    - delta[29.0,30.0] = 0
- R320: - 0.0623925288690231 potencia_activa[29.0,25.0]
+ R325: - 0.0623925288690231 potencia_activa[29.0,25.0]
    - 0.0623925288690231 potencia_reactiva[29.0,25.0] - voltaje_sqr[25.0]
    + voltaje_sqr[29.0] + 0.00194641382933594 corriente_sqr[29.0,25.0]
    - delta[29.0,25.0] = 0
- R321: - 0.0633284168020584 potencia_activa[30.0,29.0]
+ R326: - 0.0633284168020584 potencia_activa[30.0,29.0]
    - 0.0322569374252849 potencia_reactiva[30.0,29.0] - voltaje_sqr[29.0]
    + voltaje_sqr[30.0] + 0.0012627495966785 corriente_sqr[30.0,29.0]
    - delta[30.0,29.0] = 0
- R322: - 0.1215905602599522 potencia_activa[30.0,31.0]
+ R327: - 0.1215905602599522 potencia_activa[30.0,31.0]
    - 0.1201680106017385 potencia_reactiva[30.0,31.0] + voltaje_sqr[30.0]
    - voltaje_sqr[31.0] + 0.00730615377907715 corriente_sqr[30.0,31.0]
    - delta[30.0,31.0] = 0
- R323: - 0.1215905602599522 potencia_activa[31.0,30.0]
+ R328: - 0.1215905602599522 potencia_activa[31.0,30.0]
    - 0.1201680106017385 potencia_reactiva[31.0,30.0] - voltaje_sqr[30.0]
    + voltaje_sqr[31.0] + 0.00730615377907715 corriente_sqr[31.0,30.0]
    - delta[31.0,30.0] = 0
- R324: - 0.0387457604276633 potencia_activa[31.0,32.0]
+ R329: - 0.0387457604276633 potencia_activa[31.0,32.0]
    - 0.0451597123953989 potencia_reactiva[31.0,32.0] + voltaje_sqr[31.0]
    - voltaje_sqr[32.0] + 8.8515839368825738e-04 corriente_sqr[31.0,32.0]
    - delta[31.0,32.0] = 0
- R325: - 0.0387457604276633 potencia_activa[32.0,31.0]
+ R330: - 0.0387457604276633 potencia_activa[32.0,31.0]
    - 0.0451597123953989 potencia_reactiva[32.0,31.0] - voltaje_sqr[31.0]
    + voltaje_sqr[32.0] + 8.8515839368825738e-04 corriente_sqr[32.0,31.0]
    - delta[32.0,31.0] = 0
- R326: - 0.0425517046886738 potencia_activa[32.0,33.0]
+ R331: - 0.0425517046886738 potencia_activa[32.0,33.0]
    - 0.0661610376127121 potencia_reactiva[32.0,33.0] + voltaje_sqr[32.0]
    - voltaje_sqr[33.0] + 0.0015469826174757 corriente_sqr[32.0,33.0]
    - delta[32.0,33.0] = 0
- R327: - 0.0425517046886738 potencia_activa[33.0,32.0]
+ R332: - 0.0425517046886738 potencia_activa[33.0,32.0]
    - 0.0661610376127121 potencia_reactiva[33.0,32.0] - voltaje_sqr[32.0]
    + voltaje_sqr[33.0] + 0.0015469826174757 corriente_sqr[33.0,32.0]
    - delta[33.0,32.0] = 0
- R328: - 0.0623925288690231 potencia_activa[33.0,18.0]
+ R333: - 0.0623925288690231 potencia_activa[33.0,18.0]
    - 0.0623925288690231 potencia_reactiva[33.0,18.0] - voltaje_sqr[18.0]
    + voltaje_sqr[33.0] + 0.00194641382933594 corriente_sqr[33.0,18.0]
    - delta[33.0,18.0] = 0
- R329: - potencia_reactiva[1.0,2.0] + potencia_reactiva[2.0,1.0]
+ R334: - potencia_reactiva[1.0,2.0] + potencia_reactiva[2.0,1.0]
    - 0.00293244885684409 corriente_sqr[1.0,2.0] <= -0.23
- R330: potencia_reactiva[1.0,2.0] - potencia_reactiva[2.0,1.0]
+ R335: potencia_reactiva[1.0,2.0] - potencia_reactiva[2.0,1.0]
    - potencia_reactiva[2.0,3.0] - potencia_reactiva[2.0,19.0]
    + potencia_reactiva[3.0,2.0] + potencia_reactiva[19.0,2.0]
    - 0.00293244885684409 corriente_sqr[2.0,1.0]
    - 0.0156667639990117 corriente_sqr[2.0,3.0]
    - 0.00976443076800212 corriente_sqr[2.0,19.0] = 0.006
- R331: potencia_reactiva[2.0,3.0] - potencia_reactiva[3.0,2.0]
+ R336: potencia_reactiva[2.0,3.0] - potencia_reactiva[3.0,2.0]
    - potencia_reactiva[3.0,4.0] - potencia_reactiva[3.0,23.0]
    + potencia_reactiva[4.0,3.0] + potencia_reactiva[23.0,3.0]
    - 0.0156667639990117 corriente_sqr[3.0,2.0]
    - 0.0116299673811859 corriente_sqr[3.0,4.0]
    - 0.0192356166503198 corriente_sqr[3.0,23.0] = 0.004
- R332: potencia_reactiva[3.0,4.0] - potencia_reactiva[4.0,3.0]
+ R337: potencia_reactiva[3.0,4.0] - potencia_reactiva[4.0,3.0]
    - potencia_reactiva[4.0,5.0] + potencia_reactiva[5.0,4.0]
    - 0.0116299673811859 corriente_sqr[4.0,3.0]
    - 0.0121103898534774 corriente_sqr[4.0,5.0] = 0.008
- R333: potencia_reactiva[4.0,5.0] - potencia_reactiva[5.0,4.0]
+ R338: potencia_reactiva[4.0,5.0] - potencia_reactiva[5.0,4.0]
    - potencia_reactiva[5.0,6.0] + potencia_reactiva[6.0,5.0]
    - 0.0121103898534774 corriente_sqr[5.0,4.0]
    - 0.0441115179103993 corriente_sqr[5.0,6.0] = 0.003
- R334: potencia_reactiva[5.0,6.0] - potencia_reactiva[6.0,5.0]
+ R339: potencia_reactiva[5.0,6.0] - potencia_reactiva[6.0,5.0]
    - potencia_reactiva[6.0,7.0] - potencia_reactiva[6.0,26.0]
    + potencia_reactiva[7.0,6.0] + potencia_reactiva[26.0,6.0]
    - 0.0441115179103993 corriente_sqr[6.0,5.0]
    - 0.0386084968641515 corriente_sqr[6.0,7.0]
    - 0.00645138748505699 corriente_sqr[6.0,26.0] = 0.002
- R335: potencia_reactiva[6.0,7.0] - potencia_reactiva[7.0,6.0]
+ R340: potencia_reactiva[6.0,7.0] - potencia_reactiva[7.0,6.0]
    - potencia_reactiva[7.0,8.0] + potencia_reactiva[8.0,7.0]
    - 0.0386084968641515 corriente_sqr[7.0,6.0]
    - 0.0146684835371073 corriente_sqr[7.0,8.0] = 0.01
- R336: potencia_reactiva[7.0,8.0] - potencia_reactiva[8.0,7.0]
+ R341: potencia_reactiva[7.0,8.0] - potencia_reactiva[8.0,7.0]
    - potencia_reactiva[8.0,9.0] - potencia_reactiva[8.0,21.0]
    + potencia_reactiva[9.0,8.0] + potencia_reactiva[21.0,8.0]
    - 0.0146684835371073 corriente_sqr[8.0,7.0]
    - 0.0461704713630771 corriente_sqr[8.0,9.0]
    - 0.1247850577380462 corriente_sqr[8.0,21.0] = 0.01
- R337: potencia_reactiva[8.0,9.0] - potencia_reactiva[9.0,8.0]
+ R342: potencia_reactiva[8.0,9.0] - potencia_reactiva[9.0,8.0]
    - potencia_reactiva[9.0,10.0] - potencia_reactiva[9.0,15.0]
    + potencia_reactiva[10.0,9.0] + potencia_reactiva[15.0,9.0]
    - 0.0461704713630771 corriente_sqr[9.0,8.0]
    - 0.0461704713630771 corriente_sqr[9.0,10.0]
    - 0.1247850577380462 corriente_sqr[9.0,15.0] = 0.002
- R338: potencia_reactiva[9.0,10.0] - potencia_reactiva[10.0,9.0]
+ R343: potencia_reactiva[9.0,10.0] - potencia_reactiva[10.0,9.0]
    - potencia_reactiva[10.0,11.0] + potencia_reactiva[11.0,10.0]
    - 0.0461704713630771 corriente_sqr[10.0,9.0]
    - 0.0040555143764865 corriente_sqr[10.0,11.0] = 0.002
- R339: potencia_reactiva[10.0,11.0] - potencia_reactiva[11.0,10.0]
+ R344: potencia_reactiva[10.0,11.0] - potencia_reactiva[11.0,10.0]
    - potencia_reactiva[11.0,12.0] + potencia_reactiva[12.0,11.0]
    - 0.0040555143764865 corriente_sqr[11.0,10.0]
    - 0.00772419507398506 corriente_sqr[11.0,12.0] = 0.003
- R340: potencia_reactiva[11.0,12.0] - potencia_reactiva[12.0,11.0]
+ R345: potencia_reactiva[11.0,12.0] - potencia_reactiva[12.0,11.0]
    - potencia_reactiva[12.0,13.0] - potencia_reactiva[12.0,22.0]
    + potencia_reactiva[13.0,12.0] + potencia_reactiva[22.0,12.0]
    - 0.00772419507398506 corriente_sqr[12.0,11.0]
    - 0.0720633708437217 corriente_sqr[12.0,13.0]
    - 0.1247850577380462 corriente_sqr[12.0,22.0] = 0.0035
- R341: potencia_reactiva[12.0,13.0] - potencia_reactiva[13.0,12.0]
+ R346: potencia_reactiva[12.0,13.0] - potencia_reactiva[13.0,12.0]
    - potencia_reactiva[13.0,14.0] + potencia_reactiva[14.0,13.0]
    - 0.0720633708437217 corriente_sqr[13.0,12.0]
    - 0.0444796338307266 corriente_sqr[13.0,14.0] = 0.0035
- R342: potencia_reactiva[13.0,14.0] - potencia_reactiva[14.0,13.0]
+ R347: potencia_reactiva[13.0,14.0] - potencia_reactiva[14.0,13.0]
    - potencia_reactiva[14.0,15.0] + potencia_reactiva[15.0,14.0]
    - 0.0444796338307266 corriente_sqr[14.0,13.0]
    - 0.0328184701851062 corriente_sqr[14.0,15.0] = 0.008
- R343: potencia_reactiva[9.0,15.0] + potencia_reactiva[14.0,15.0]
+ R348: potencia_reactiva[9.0,15.0] + potencia_reactiva[14.0,15.0]
    - potencia_reactiva[15.0,14.0] - potencia_reactiva[15.0,16.0]
    - potencia_reactiva[15.0,9.0] + potencia_reactiva[16.0,15.0]
    - 0.0328184701851062 corriente_sqr[15.0,14.0]
    - 0.0340039282336176 corriente_sqr[15.0,16.0]
    - 0.1247850577380462 corriente_sqr[15.0,9.0] = 0.001
- R344: potencia_reactiva[15.0,16.0] - potencia_reactiva[16.0,15.0]
+ R349: potencia_reactiva[15.0,16.0] - potencia_reactiva[16.0,15.0]
    - potencia_reactiva[16.0,17.0] + potencia_reactiva[17.0,16.0]
    - 0.0340039282336176 corriente_sqr[16.0,15.0]
    - 0.1073775421835888 corriente_sqr[16.0,17.0] = 0.002
- R345: potencia_reactiva[16.0,17.0] - potencia_reactiva[17.0,16.0]
+ R350: potencia_reactiva[16.0,17.0] - potencia_reactiva[17.0,16.0]
    - potencia_reactiva[17.0,18.0] + potencia_reactiva[18.0,17.0]
    - 0.1073775421835888 corriente_sqr[17.0,16.0]
    - 0.0358133115708193 corriente_sqr[17.0,18.0] = 0.002
- R346: potencia_reactiva[17.0,18.0] - potencia_reactiva[18.0,17.0]
+ R351: potencia_reactiva[17.0,18.0] - potencia_reactiva[18.0,17.0]
    - potencia_reactiva[18.0,33.0] + potencia_reactiva[33.0,18.0]
    - 0.0358133115708193 corriente_sqr[18.0,17.0]
    - 0.0311962644345116 corriente_sqr[18.0,33.0] = 0.004
- R347: potencia_reactiva[2.0,19.0] - potencia_reactiva[19.0,2.0]
+ R352: potencia_reactiva[2.0,19.0] - potencia_reactiva[19.0,2.0]
    - potencia_reactiva[19.0,20.0] + potencia_reactiva[20.0,19.0]
    - 0.00976443076800212 corriente_sqr[19.0,2.0]
    - 0.0845668336290739 corriente_sqr[19.0,20.0] = 0.004
- R348: potencia_reactiva[19.0,20.0] - potencia_reactiva[20.0,19.0]
+ R353: potencia_reactiva[19.0,20.0] - potencia_reactiva[20.0,19.0]
    - potencia_reactiva[20.0,21.0] + potencia_reactiva[21.0,20.0]
    - 0.0845668336290739 corriente_sqr[20.0,19.0]
    - 0.0298485858109407 corriente_sqr[20.0,21.0] = 0.004
- R349: potencia_reactiva[8.0,21.0] + potencia_reactiva[20.0,21.0]
+ R354: potencia_reactiva[8.0,21.0] + potencia_reactiva[20.0,21.0]
    - potencia_reactiva[21.0,20.0] - potencia_reactiva[21.0,22.0]
    - potencia_reactiva[21.0,8.0] + potencia_reactiva[22.0,21.0]
    - 0.0298485858109407 corriente_sqr[21.0,20.0]
    - 0.0584805173089354 corriente_sqr[21.0,22.0]
    - 0.1247850577380462 corriente_sqr[21.0,8.0] = 0.004
- R350: potencia_reactiva[12.0,22.0] + potencia_reactiva[21.0,22.0]
+ R355: potencia_reactiva[12.0,22.0] + potencia_reactiva[21.0,22.0]
    - potencia_reactiva[22.0,21.0] - potencia_reactiva[22.0,12.0]
    - 0.0584805173089354 corriente_sqr[22.0,21.0]
    - 0.1247850577380462 corriente_sqr[22.0,12.0] = 0.004
- R351: potencia_reactiva[3.0,23.0] - potencia_reactiva[23.0,3.0]
+ R356: potencia_reactiva[3.0,23.0] - potencia_reactiva[23.0,3.0]
    - potencia_reactiva[23.0,24.0] + potencia_reactiva[24.0,23.0]
    - 0.0192356166503198 corriente_sqr[23.0,3.0]
    - 0.0442425422210243 corriente_sqr[23.0,24.0] = 0.005
- R352: potencia_reactiva[23.0,24.0] - potencia_reactiva[24.0,23.0]
+ R357: potencia_reactiva[23.0,24.0] - potencia_reactiva[24.0,23.0]
    - potencia_reactiva[24.0,25.0] + potencia_reactiva[25.0,24.0]
    - 0.0442425422210243 corriente_sqr[24.0,23.0]
    - 0.0437434019900721 corriente_sqr[24.0,25.0] = 0.02
- R353: potencia_reactiva[24.0,25.0] - potencia_reactiva[25.0,24.0]
+ R358: potencia_reactiva[24.0,25.0] - potencia_reactiva[25.0,24.0]
    - potencia_reactiva[25.0,29.0] + potencia_reactiva[29.0,25.0]
    - 0.0437434019900721 corriente_sqr[25.0,24.0]
    - 0.0311962644345116 corriente_sqr[25.0,29.0] = 0.02
- R354: potencia_reactiva[6.0,26.0] - potencia_reactiva[26.0,6.0]
+ R359: potencia_reactiva[6.0,26.0] - potencia_reactiva[26.0,6.0]
    - potencia_reactiva[26.0,27.0] + potencia_reactiva[27.0,26.0]
    - 0.00645138748505699 corriente_sqr[26.0,6.0]
    - 0.00902819892734764 corriente_sqr[26.0,27.0] = 0.0025
- R355: potencia_reactiva[26.0,27.0] - potencia_reactiva[27.0,26.0]
+ R360: potencia_reactiva[26.0,27.0] - potencia_reactiva[27.0,26.0]
    - potencia_reactiva[27.0,28.0] + potencia_reactiva[28.0,27.0]
    - 0.00902819892734764 corriente_sqr[27.0,26.0]
    - 0.0582559042050069 corriente_sqr[27.0,28.0] = 0.0025
- R356: potencia_reactiva[27.0,28.0] - potencia_reactiva[28.0,27.0]
+ R361: potencia_reactiva[27.0,28.0] - potencia_reactiva[28.0,27.0]
    - potencia_reactiva[28.0,29.0] + potencia_reactiva[29.0,28.0]
    - 0.0582559042050069 corriente_sqr[28.0,27.0]
    - 0.0437122057256376 corriente_sqr[28.0,29.0] = 0.002
- R357: potencia_reactiva[25.0,29.0] + potencia_reactiva[28.0,29.0]
+ R362: potencia_reactiva[25.0,29.0] + potencia_reactiva[28.0,29.0]
    - potencia_reactiva[29.0,28.0] - potencia_reactiva[29.0,30.0]
    - potencia_reactiva[29.0,25.0] + potencia_reactiva[30.0,29.0]
    - 0.0437122057256376 corriente_sqr[29.0,28.0]
    - 0.0161284687126425 corriente_sqr[29.0,30.0]
    - 0.0311962644345116 corriente_sqr[29.0,25.0] = 0.007
- R358: potencia_reactiva[29.0,30.0] - potencia_reactiva[30.0,29.0]
+ R363: potencia_reactiva[29.0,30.0] - potencia_reactiva[30.0,29.0]
    - potencia_reactiva[30.0,31.0] + potencia_reactiva[31.0,30.0]
    - 0.0161284687126425 corriente_sqr[30.0,29.0]
    - 0.0600840053008692 corriente_sqr[30.0,31.0] = 0.06
- R359: potencia_reactiva[30.0,31.0] - potencia_reactiva[31.0,30.0]
+ R364: potencia_reactiva[30.0,31.0] - potencia_reactiva[31.0,30.0]
    - potencia_reactiva[31.0,32.0] + potencia_reactiva[32.0,31.0]
    - 0.0600840053008692 corriente_sqr[31.0,30.0]
    - 0.0225798561976995 corriente_sqr[31.0,32.0] = 0.007
- R360: potencia_reactiva[31.0,32.0] - potencia_reactiva[32.0,31.0]
+ R365: potencia_reactiva[31.0,32.0] - potencia_reactiva[32.0,31.0]
    - potencia_reactiva[32.0,33.0] + potencia_reactiva[33.0,32.0]
    - 0.0225798561976995 corriente_sqr[32.0,31.0]
    - 0.033080518806356 corriente_sqr[32.0,33.0] = 0.01
- R361: potencia_reactiva[18.0,33.0] + potencia_reactiva[32.0,33.0]
+ R366: potencia_reactiva[18.0,33.0] + potencia_reactiva[32.0,33.0]
    - potencia_reactiva[33.0,32.0] - potencia_reactiva[33.0,18.0]
    - 0.033080518806356 corriente_sqr[33.0,32.0]
    - 0.0311962644345116 corriente_sqr[33.0,18.0] = 0.004
- R362: - potencia_activa[1.0,2.0] + potencia_activa[2.0,1.0]
+ R367: - potencia_activa[1.0,2.0] + potencia_activa[2.0,1.0]
    - 0.00575259116172393 corriente_sqr[1.0,2.0] <= -0.3715
- R363: potencia_activa[1.0,2.0] - potencia_activa[2.0,1.0]
+ R368: potencia_activa[1.0,2.0] - potencia_activa[2.0,1.0]
    - potencia_activa[2.0,3.0] - potencia_activa[2.0,19.0]
    + potencia_activa[3.0,2.0] + potencia_activa[19.0,2.0]
    - 0.00575259116172393 corriente_sqr[2.0,1.0]
    - 0.0307595167324284 corriente_sqr[2.0,3.0]
    - 0.0102323747345198 corriente_sqr[2.0,19.0] = 0.01
- R364: potencia_activa[2.0,3.0] - potencia_activa[3.0,2.0]
+ R369: potencia_activa[2.0,3.0] - potencia_activa[3.0,2.0]
    - potencia_activa[3.0,4.0] - potencia_activa[3.0,23.0]
    + potencia_activa[4.0,3.0] + potencia_activa[23.0,3.0]
    - 0.0307595167324284 corriente_sqr[3.0,2.0]
    - 0.0228356655660625 corriente_sqr[3.0,4.0]
    - 0.0281515090257032 corriente_sqr[3.0,23.0] = 0.009
- R365: potencia_activa[3.0,4.0] - potencia_activa[4.0,3.0]
+ R370: potencia_activa[3.0,4.0] - potencia_activa[4.0,3.0]
    - potencia_activa[4.0,5.0] + potencia_activa[5.0,4.0]
    - 0.0228356655660625 corriente_sqr[4.0,3.0]
    - 0.0237777927519847 corriente_sqr[4.0,5.0] = 0.012
- R366: potencia_activa[4.0,5.0] - potencia_activa[5.0,4.0]
+ R371: potencia_activa[4.0,5.0] - potencia_activa[5.0,4.0]
    - potencia_activa[5.0,6.0] + potencia_activa[6.0,5.0]
    - 0.0237777927519847 corriente_sqr[5.0,4.0]
    - 0.0510994811437299 corriente_sqr[5.0,6.0] = 0.006
- R367: potencia_activa[5.0,6.0] - potencia_activa[6.0,5.0]
+ R372: potencia_activa[5.0,6.0] - potencia_activa[6.0,5.0]
    - potencia_activa[6.0,7.0] - potencia_activa[6.0,26.0]
    + potencia_activa[7.0,6.0] + potencia_activa[26.0,6.0]
    - 0.0510994811437299 corriente_sqr[6.0,5.0]
    - 0.0116798814042811 corriente_sqr[6.0,7.0]
    - 0.0126656833604117 corriente_sqr[6.0,26.0] = 0.006
- R368: potencia_activa[6.0,7.0] - potencia_activa[7.0,6.0]
+ R373: potencia_activa[6.0,7.0] - potencia_activa[7.0,6.0]
    - potencia_activa[7.0,8.0] + potencia_activa[8.0,7.0]
    - 0.0116798814042811 corriente_sqr[7.0,6.0]
    - 0.044386045037423 corriente_sqr[7.0,8.0] = 0.02
- R369: potencia_activa[7.0,8.0] - potencia_activa[8.0,7.0]
+ R374: potencia_activa[7.0,8.0] - potencia_activa[8.0,7.0]
    - potencia_activa[8.0,9.0] - potencia_activa[8.0,21.0]
    + potencia_activa[9.0,8.0] + potencia_activa[21.0,8.0]
    - 0.044386045037423 corriente_sqr[8.0,7.0]
    - 0.0642643047350938 corriente_sqr[8.0,9.0]
    - 0.1247850577380462 corriente_sqr[8.0,21.0] = 0.02
- R370: potencia_activa[8.0,9.0] - potencia_activa[9.0,8.0]
+ R375: potencia_activa[8.0,9.0] - potencia_activa[9.0,8.0]
    - potencia_activa[9.0,10.0] - potencia_activa[9.0,15.0]
    + potencia_activa[10.0,9.0] + potencia_activa[15.0,9.0]
    - 0.0642643047350938 corriente_sqr[9.0,8.0]
    - 0.0651378001392601 corriente_sqr[9.0,10.0]
    - 0.1247850577380462 corriente_sqr[9.0,15.0] = 0.006
- R371: potencia_activa[9.0,10.0] - potencia_activa[10.0,9.0]
+ R376: potencia_activa[9.0,10.0] - potencia_activa[10.0,9.0]
    - potencia_activa[10.0,11.0] + potencia_activa[11.0,10.0]
    - 0.0651378001392601 corriente_sqr[10.0,9.0]
    - 0.0122663711756499 corriente_sqr[10.0,11.0] = 0.006
- R372: potencia_activa[10.0,11.0] - potencia_activa[11.0,10.0]
+ R377: potencia_activa[10.0,11.0] - potencia_activa[11.0,10.0]
    - potencia_activa[11.0,12.0] + potencia_activa[12.0,11.0]
    - 0.0122663711756499 corriente_sqr[11.0,10.0]
    - 0.0233597628085623 corriente_sqr[11.0,12.0] = 0.0045
- R373: potencia_activa[11.0,12.0] - potencia_activa[12.0,11.0]
+ R378: potencia_activa[11.0,12.0] - potencia_activa[12.0,11.0]
    - potencia_activa[12.0,13.0] - potencia_activa[12.0,22.0]
    + potencia_activa[13.0,12.0] + potencia_activa[22.0,12.0]
    - 0.0233597628085623 corriente_sqr[12.0,11.0]
    - 0.0915922323797259 corriente_sqr[12.0,13.0]
    - 0.1247850577380462 corriente_sqr[12.0,22.0] = 0.006
- R374: potencia_activa[12.0,13.0] - potencia_activa[13.0,12.0]
+ R379: potencia_activa[12.0,13.0] - potencia_activa[13.0,12.0]
    - potencia_activa[13.0,14.0] + potencia_activa[14.0,13.0]
    - 0.0915922323797259 corriente_sqr[13.0,12.0]
    - 0.0337917936354629 corriente_sqr[13.0,14.0] = 0.006
- R375: potencia_activa[13.0,14.0] - potencia_activa[14.0,13.0]
+ R380: potencia_activa[13.0,14.0] - potencia_activa[14.0,13.0]
    - potencia_activa[14.0,15.0] + potencia_activa[15.0,14.0]
    - 0.0337917936354629 corriente_sqr[14.0,13.0]
    - 0.0368739845615927 corriente_sqr[14.0,15.0] = 0.012
- R376: potencia_activa[9.0,15.0] + potencia_activa[14.0,15.0]
+ R381: potencia_activa[9.0,15.0] + potencia_activa[14.0,15.0]
    - potencia_activa[15.0,14.0] - potencia_activa[15.0,16.0]
    - potencia_activa[15.0,9.0] + potencia_activa[16.0,15.0]
    - 0.0368739845615927 corriente_sqr[15.0,14.0]
    - 0.0465635442949519 corriente_sqr[15.0,16.0]
    - 0.1247850577380462 corriente_sqr[15.0,9.0] = 0.006
- R377: potencia_activa[15.0,16.0] - potencia_activa[16.0,15.0]
+ R382: potencia_activa[15.0,16.0] - potencia_activa[16.0,15.0]
    - potencia_activa[16.0,17.0] + potencia_activa[17.0,16.0]
    - 0.0465635442949519 corriente_sqr[16.0,15.0]
    - 0.0804239697121708 corriente_sqr[16.0,17.0] = 0.006
- R378: potencia_activa[16.0,17.0] - potencia_activa[17.0,16.0]
+ R383: potencia_activa[16.0,17.0] - potencia_activa[17.0,16.0]
    - potencia_activa[17.0,18.0] + potencia_activa[18.0,17.0]
    - 0.0804239697121708 corriente_sqr[17.0,16.0]
    - 0.0456713311321249 corriente_sqr[17.0,18.0] = 0.006
- R379: potencia_activa[17.0,18.0] - potencia_activa[18.0,17.0]
+ R384: potencia_activa[17.0,18.0] - potencia_activa[18.0,17.0]
    - potencia_activa[18.0,33.0] + potencia_activa[33.0,18.0]
    - 0.0456713311321249 corriente_sqr[18.0,17.0]
    - 0.0311962644345116 corriente_sqr[18.0,33.0] = 0.009
- R380: potencia_activa[2.0,19.0] - potencia_activa[19.0,2.0]
+ R385: potencia_activa[2.0,19.0] - potencia_activa[19.0,2.0]
    - potencia_activa[19.0,20.0] + potencia_activa[20.0,19.0]
    - 0.0102323747345198 corriente_sqr[19.0,2.0]
    - 0.0938508419247845 corriente_sqr[19.0,20.0] = 0.009
- R381: potencia_activa[19.0,20.0] - potencia_activa[20.0,19.0]
+ R386: potencia_activa[19.0,20.0] - potencia_activa[20.0,19.0]
    - potencia_activa[20.0,21.0] + potencia_activa[21.0,20.0]
    - 0.0938508419247845 corriente_sqr[20.0,19.0]
    - 0.025549740571865 corriente_sqr[20.0,21.0] = 0.009
- R382: potencia_activa[8.0,21.0] + potencia_activa[20.0,21.0]
+ R387: potencia_activa[8.0,21.0] + potencia_activa[20.0,21.0]
    - potencia_activa[21.0,20.0] - potencia_activa[21.0,22.0]
    - potencia_activa[21.0,8.0] + potencia_activa[22.0,21.0]
    - 0.025549740571865 corriente_sqr[21.0,20.0]
    - 0.0442300637152505 corriente_sqr[21.0,22.0]
    - 0.1247850577380462 corriente_sqr[21.0,8.0] = 0.009
- R383: potencia_activa[12.0,22.0] + potencia_activa[21.0,22.0]
+ R388: potencia_activa[12.0,22.0] + potencia_activa[21.0,22.0]
    - potencia_activa[22.0,21.0] - potencia_activa[22.0,12.0]
    - 0.0442300637152505 corriente_sqr[22.0,21.0]
    - 0.1247850577380462 corriente_sqr[22.0,12.0] = 0.009
- R384: potencia_activa[3.0,23.0] - potencia_activa[23.0,3.0]
+ R389: potencia_activa[3.0,23.0] - potencia_activa[23.0,3.0]
    - potencia_activa[23.0,24.0] + potencia_activa[24.0,23.0]
    - 0.0281515090257032 corriente_sqr[23.0,3.0]
    - 0.0560284909243828 corriente_sqr[23.0,24.0] = 0.009
- R385: potencia_activa[23.0,24.0] - potencia_activa[24.0,23.0]
+ R390: potencia_activa[23.0,24.0] - potencia_activa[24.0,23.0]
    - potencia_activa[24.0,25.0] + potencia_activa[25.0,24.0]
    - 0.0560284909243828 corriente_sqr[24.0,23.0]
    - 0.0559037058666447 corriente_sqr[24.0,25.0] = 0.042
- R386: potencia_activa[24.0,25.0] - potencia_activa[25.0,24.0]
+ R391: potencia_activa[24.0,25.0] - potencia_activa[25.0,24.0]
    - potencia_activa[25.0,29.0] + potencia_activa[29.0,25.0]
    - 0.0559037058666447 corriente_sqr[25.0,24.0]
    - 0.0311962644345116 corriente_sqr[25.0,29.0] = 0.042
- R387: potencia_activa[6.0,26.0] - potencia_activa[26.0,6.0]
+ R392: potencia_activa[6.0,26.0] - potencia_activa[26.0,6.0]
    - potencia_activa[26.0,27.0] + potencia_activa[27.0,26.0]
    - 0.0126656833604117 corriente_sqr[26.0,6.0]
    - 0.0177319567045764 corriente_sqr[26.0,27.0] = 0.006
- R388: potencia_activa[26.0,27.0] - potencia_activa[27.0,26.0]
+ R393: potencia_activa[26.0,27.0] - potencia_activa[27.0,26.0]
    - potencia_activa[27.0,28.0] + potencia_activa[28.0,27.0]
    - 0.0177319567045764 corriente_sqr[27.0,26.0]
    - 0.0660736880722955 corriente_sqr[27.0,28.0] = 0.006
- R389: potencia_activa[27.0,28.0] - potencia_activa[28.0,27.0]
+ R394: potencia_activa[27.0,28.0] - potencia_activa[28.0,27.0]
    - potencia_activa[28.0,29.0] + potencia_activa[29.0,28.0]
    - 0.0660736880722955 corriente_sqr[28.0,27.0]
    - 0.0501760717164684 corriente_sqr[28.0,29.0] = 0.006
- R390: potencia_activa[25.0,29.0] + potencia_activa[28.0,29.0]
+ R395: potencia_activa[25.0,29.0] + potencia_activa[28.0,29.0]
    - potencia_activa[29.0,28.0] - potencia_activa[29.0,30.0]
    - potencia_activa[29.0,25.0] + potencia_activa[30.0,29.0]
    - 0.0501760717164684 corriente_sqr[29.0,28.0]
    - 0.0316642084010292 corriente_sqr[29.0,30.0]
    - 0.0311962644345116 corriente_sqr[29.0,25.0] = 0.012
- R391: potencia_activa[29.0,30.0] - potencia_activa[30.0,29.0]
+ R396: potencia_activa[29.0,30.0] - potencia_activa[30.0,29.0]
    - potencia_activa[30.0,31.0] + potencia_activa[31.0,30.0]
    - 0.0316642084010292 corriente_sqr[30.0,29.0]
    - 0.0607952801299761 corriente_sqr[30.0,31.0] = 0.02
- R392: potencia_activa[30.0,31.0] - potencia_activa[31.0,30.0]
+ R397: potencia_activa[30.0,31.0] - potencia_activa[31.0,30.0]
    - potencia_activa[31.0,32.0] + potencia_activa[32.0,31.0]
    - 0.0607952801299761 corriente_sqr[31.0,30.0]
    - 0.0193728802138317 corriente_sqr[31.0,32.0] = 0.015
- R393: potencia_activa[31.0,32.0] - potencia_activa[32.0,31.0]
+ R398: potencia_activa[31.0,32.0] - potencia_activa[32.0,31.0]
    - potencia_activa[32.0,33.0] + potencia_activa[33.0,32.0]
    - 0.0193728802138317 corriente_sqr[32.0,31.0]
    - 0.0212758523443369 corriente_sqr[32.0,33.0] = 0.021
- R394: potencia_activa[18.0,33.0] + potencia_activa[32.0,33.0]
+ R399: potencia_activa[18.0,33.0] + potencia_activa[32.0,33.0]
    - potencia_activa[33.0,32.0] - potencia_activa[33.0,18.0]
    - 0.0212758523443369 corriente_sqr[33.0,32.0]
    - 0.0311962644345116 corriente_sqr[33.0,18.0] = 0.006
